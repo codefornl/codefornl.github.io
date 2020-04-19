@@ -1,0 +1,131 @@
+.blog-box {
+    background: $color3;
+    margin: 60px auto 60px;
+    font-family: $header-font;
+    color: $highlight-inverse;
+}
+
+.blog-box__title {
+    line-height: 1.4em;
+    padding: 100px;
+}
+.blog {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    hr {
+        margin: 1.5em 0;
+        text-align: center;
+        border: none;
+    }
+
+    hr:after {
+        content: '';
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: $highlight-inverse;
+        margin: 0 0.4em;
+    }
+
+    hr:before {
+        content: '';
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: $highlight-inverse;
+        margin: 0 0.4em;
+    }
+}
+
+@media #{$media-xl} {
+    .blog-box__title {
+        font-size: 64px;
+    }
+    .blog {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media #{$media-l} {
+    .blog-box__title {
+        font-size: 64px;
+        line-height: 1.4em;
+        padding: 80px 160px 40px;
+    }
+    .blog {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media #{$media-m} {
+    .blog-box__title {
+        font-size: 64px;
+        line-height: 1.4em;
+        padding: 60px 120px 30px;
+    }
+    .blog {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    li {
+        a {
+            max-width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: block;
+        }
+    }
+}
+
+@media #{$media-s} {
+    .blog-box__title {
+        font-size: 48px;
+        line-height: 1.4em;
+        padding: 40px 80px 20px;
+    }
+    .blog {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    li {
+        a {
+            max-width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: block;
+        }
+    }
+}
+
+@media #{$media-xs} {
+    .blog-box__title {
+        line-height: 1.4em;
+        padding: 28px 60px 10px;
+        font-size: 28px;
+    }
+    li {
+        a {
+            max-width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: block;
+        }
+    }
+}

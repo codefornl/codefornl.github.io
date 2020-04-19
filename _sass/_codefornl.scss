@@ -1,7 +1,7 @@
 @import "base";
 @import "variables";
 @import "nav";
-
+@import "blog";
 @import 'item';
 @import "action";
 @import "people";
@@ -504,48 +504,6 @@ button:hover {
 .reading-time {
     color: $highlight-inverse;
     font-style: italic;
-}
-
-.blog {
-    color: $secondary-inverse;
-
-    h1 {
-        font-size: 1.8em;
-    }
-
-    h2 {
-        font-size: 1.4em;
-    }
-
-    h3 {
-        font-size: 1.2em;
-    }
-
-    hr {
-        margin: 1.5em 0;
-        text-align: center;
-        border: none;
-    }
-
-    hr:after {
-        content: '';
-        display: inline-block;
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        background: $highlight-inverse;
-        margin: 0 0.4em;
-    }
-
-    hr:before {
-        content: '';
-        display: inline-block;
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        background: $highlight-inverse;
-        margin: 0 0.4em;
-    }
 }
 
 .tfnt {

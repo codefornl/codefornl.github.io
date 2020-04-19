@@ -2,28 +2,30 @@
 <html lang="{{ page.lang }}">
 
 {% include head.html %}
-
 <body>
-
-    <div>
-        {% include nav.html %}
-    </div>
-    <h2 class="text-center">{{page.title}}</h2>
-    {% if page.author %}
-    <p class="reading-time text-center" title="Estimated read time">
-
-        <span>{{page.date | date: "%Y-%m-%d"}}</span>, <span>{{page.author}}</span>
-        {% assign words = page.content | number_of_words %}
-        {% if words < 360 %}
-        (1 minuut)
-        {% else %}
-        ({{ words | divided_by: 180 }} minuten)
+    {% include nav.html %}
+    <header>
+        <div class="blog-box">
+          <div class="blog-box__title">"<span>{{page.title}}</span>"</div>
+        </div>
+    </header>
+    <section class="blog">
+        {% if page.author %}
+        <p class="reading-time text-center" title="Estimated read time">
+    
+            <span>{{page.date | date: "%Y-%m-%d"}}</span>, <span>{{page.author}}</span>
+            {% assign words = page.content | number_of_words %}
+            {% if words < 360 %}
+            (1 minuut)
+            {% else %}
+            ({{ words | divided_by: 180 }} minuten)
+            {% endif %}
+        </p>
         {% endif %}
-    </p>
-    {% endif %}
-    <div class="blog" style="padding:1.6em;">
+
         {{ content }}
-    </div>
+    </section>
+    {% include community.html %}
     {% include footer.html %}
 </body>
 
