@@ -19,7 +19,6 @@ body {
 }
 
 a {
-    text-decoration: none;
     color: $secondary-color;
 }
 
@@ -654,6 +653,9 @@ blockquote p {
 
     .heroins {
         display: block;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .heroins__item {
@@ -694,6 +696,9 @@ blockquote p {
 
     .heroins {
         display: block;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .partner-img-wrapper {
@@ -714,16 +719,42 @@ blockquote p {
 }
 
 .meetup-box__img {
+    display: none;
+}
+
+.meetup-box__img-div {
     width: 100%;
     height: 640px;
     background-image: url(../img/meetups.png);
     background-position: center;
 }
 
-.meetup-box__img:hover {
+.meetup-box__img-div:hover {
     width: 100%;
     background-color: $color3;
     background-image: url(../img/meetup.png);
+}
+
+/*  Smartphones in landscape mode */
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+    .meetup-box__img-div {
+        display: none;
+
+    }
+    .meetup-box__img {
+        display: block;
+    }
+}
+
+/*  Smartphones in portrait mode  */
+@media only screen and (max-width: 420px) {
+    .meetup-box__img-div {
+        display: none;
+
+    }
+    .meetup-box__img {
+        display: block;
+    }
 }
 
 .corona-iframe {
