@@ -354,7 +354,6 @@ h1,
 h2,
 h3 {
     font-family: $header-font;
-    line-height: 2em;
     color: $primary-color;
 }
 
@@ -502,7 +501,7 @@ button:hover {
 }
 
 .reading-time {
-    color: $highlight-inverse;
+    display: none;
     font-style: italic;
 }
 
@@ -686,10 +685,6 @@ blockquote p {
         line-height: 1.4em;
         padding: 28px 60px 40px;
         font-size: 28px;
-    }
-
-    p {
-        margin: 1em 1em;
     }
 
     .top-60 {
