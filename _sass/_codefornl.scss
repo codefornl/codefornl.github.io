@@ -353,8 +353,6 @@ span.badge {
 h1,
 h2,
 h3 {
-    font-family: $header-font;
-    line-height: 2em;
     color: $primary-color;
 }
 
@@ -502,7 +500,7 @@ button:hover {
 }
 
 .reading-time {
-    color: $highlight-inverse;
+    display: none;
     font-style: italic;
 }
 
