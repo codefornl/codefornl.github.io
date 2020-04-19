@@ -27,6 +27,8 @@ Gedurende de appathon werd het in ieder geval duidelijk dat de gebruikerswensen 
 Over Code for NL
 Code for NL ondersteunt de overheid bij de digitale transformatie. Wij zijn een netwerk van ontwikkelaars en ontwerpers die samenwerken in een open en inclusieve omgeving waar ruimte is voor (vaak diep-technisch inhoudelijke) discussies. Bij Code For NL heerst de 'doen'-mentaliteit; wij stimuleren mensen om samen te werken en door te pakken. Wij bieden daarvoor de ruimte, maar ook de mogelijkheid stemmen gehoord te laten worden.
 
+_dit document is gemaakt met etherpad en tot stand gekomen dankzij de inbreng van pontane deelnemers aan de Code For NL #corona-apps kanalen_
+
 * [[1] https://www.rijksoverheid.nl/onderwerpen/coronavirus-app/doel-coronavirus-app](https://www.rijksoverheid.nl/onderwerpen/coronavirus-app/doel-coronavirus-app)
 * [[2] https://docs.google.com/document/d/1mS-q4E8rSZDVKvGJ61c2zVE8z9WNXyZ3Az9D6NYcxxA](https://docs.google.com/document/d/1mS-q4E8rSZDVKvGJ61c2zVE8z9WNXyZ3Az9D6NYcxxA)
 * [[3] https://docs.google.com/spreadsheets/d/1S22jSACupa4PEW_pxQhKBLvezjawk8CdFfXq26B9rgg](https://docs.google.com/spreadsheets/d/1S22jSACupa4PEW_pxQhKBLvezjawk8CdFfXq26B9rgg)
