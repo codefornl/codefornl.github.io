@@ -14,10 +14,10 @@
     color: $highlight-inverse;
 }
 
-.action-box__corona-apps {
+.action-box__appathon {
     background: $color4;
     margin: 60px auto 60px;
-    height: 550px;
+    height: 2650px;
     font-family: $header-font;
     color: $highlight-inverse;
 }
@@ -38,7 +38,12 @@
     padding: 0px 198px 40px;
 
 }
+.action-box__textappa {
+    font-family: $body-font;
+    font-size: 20px;
+    padding: 0px 198px 40px;
 
+}
 
 .action-box__link {
     font-size: 32px;
