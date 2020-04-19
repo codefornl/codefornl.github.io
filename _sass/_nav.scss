@@ -21,6 +21,7 @@ nav {
 
 .nav__menu a {
     color: $secondary-inverse;
+    text-decoration: none;
 }
 
 .nav__menu a:hover {
@@ -104,6 +105,9 @@ nav {
 
 
 @media #{$media-m} {
+    nav {
+        padding-top: 2em;
+    }
     .nav__menu {
         margin: 0;
     }
@@ -127,6 +131,7 @@ nav {
 }
 @media #{$media-s} {
     nav {
+        padding-top: 2em;
         flex-direction: column;
     }
     .hamburger {
@@ -162,6 +167,7 @@ nav {
 
 @media #{$media-xs} {
     nav {
+        padding-top: 2em;
         flex-direction: column;
     }
     .hamburger {
