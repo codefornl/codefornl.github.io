@@ -443,6 +443,7 @@ button:hover {
 }
 
 .heroins__hover {
+    img { margin: auto }
     .img__normal { display: block }
     .img__alt { display: none }
 }
@@ -737,7 +738,7 @@ blockquote p {
 }
 
 .waaromoss {
-    margin-left:auto; 
+    margin-left:auto;
     margin-right:auto;
     width: 60%;
     border: 0;
