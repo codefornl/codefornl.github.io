@@ -9,7 +9,6 @@
 .action-box__corona {
     background: $color4;
     margin: 60px auto;
-    height: 850px;
     font-family: $header-font;
     color: $highlight-inverse;
 }
@@ -17,7 +16,6 @@
 .action-box__appathon {
     background: $color4;
     margin: 60px auto;
-    height: 2650px;
     font-family: $header-font;
     color: $highlight-inverse;
 }
@@ -67,6 +65,11 @@
     .action-box__action {
         font-size: 64px;
         line-height: 1.4em;
+    }
+    .action-box__textappa,
+    .action-box__text,
+    .action-box__author,
+    .action-box__action {
         padding: 40px;
     }
 }
@@ -75,9 +78,13 @@
     .action-box__action {
         font-size: 56px;
         line-height: 1.4em;
+    }
+    .action-box__textappa,
+    .action-box__text,
+    .action-box__author,
+    .action-box__action {
         padding: 60px;
     }
-
     .action-box__link {
         padding: 20px;
     }
@@ -87,9 +94,14 @@
     .action-box__action {
         font-size: 28px;
         line-height: 1.4em;
+    }
+    .action-box__textappa,
+    .action-box__text,
+    .action-box__author,
+    .action-box__action {
         padding: 20px;
     }
-
+    
     .action-box {
         margin: 10px auto 0;
     }
@@ -98,8 +110,13 @@
 @media #{$media-xs} {
     .action-box__action {
         line-height: 1.4em;
-        padding: 20px;
         font-size: 28px;
+    }
+    .action-box__textappa,
+    .action-box__text,
+    .action-box__author,
+    .action-box__action {
+        padding: 20px;
     }
 
     .action-box {
