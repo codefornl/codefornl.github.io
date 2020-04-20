@@ -1,7 +1,12 @@
 <header>
+  <div class="action-box action-appathon-statement-announcement">
+    <div class="action-box__action">&quot;<span>Niet eerder hebben wij de mogelijkheid gehad zo actief aanwezig te zijn bij een ICT-project van de overheid.</span>&quot;</div>
+    <div class="action-box__link"><span><a href="/appathon/" class="action-box__link">Lees het volledige statement</a></span></div>
+  </div>
+
   <div class="action-box">
     {% assign action = site.data.blocks.corona[page.lang] %}
-    <div class="action-box__action">"<span>{{action.title}}</span>"</div>
+    <div class="action-box__action">&quot;<span>{{action.title}}</span>&quot;</div>
     <div class="action-box__link"><span><a href="{{action.link}}" class="action-box__link">{{ action.link_title }}</a></span></div>
   </div>
 </header>
