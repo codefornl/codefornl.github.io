@@ -1,5 +1,5 @@
 ---
-title: "Meekijken voor en met de samenleving"
+title: "Open samenwerken en public code"
 excerpt: "We denken dat dit een aanzet is tot een model dat in de toekomst, zij het onder minder hoge druk, bij beoordeling van technologische oplossingen tot een optimale samenwerking kan leiden tussen overheid en maatschappij."
 tagline: De tijd is rijp voor een open source overheid.
 lang: nl
@@ -22,10 +22,16 @@ Wij roepen het Ministerie van VWS dan ook op de open samenwerking voort te zette
 
 ## Hoe nu verder?
 De Veilig Tegen Corona-coalitie [[6]](https://veiligtegencorona.nl), waar Code for NL deel van uit maakt, sprak zich vorige week duidelijk uit over de eisen die gesteld moeten worden aan applicaties die een dermate grote impact hebben op de mogelijkheid om burgers te volgen. De enige wijze om dit doorlopend te controleren vanuit de maatschappij is wanneer dergelijke applicaties, vanaf de start, open source beschikbaar zijn onder een daarbij geschikte open licentie. Code for NL gelooft erin dat publiek geld moet leiden tot publieke code, zoals onlangs in een kamerbrief is voorgelegd [[7]](https://www.rijksoverheid.nl/documenten/publicaties/2020/04/17/overwegingen-bij-open-tenzij-en-aanpak-open-source). Wij steunen de Standard for Public Code [[8]](https://standard.publiccode.net) als geschikte richtlijn om de openheid van applicaties te toetsen. 
+
 Wij willen benadrukken dat wij nog niet overtuigd zijn van de doelmatigheid van een app. Er is nog steeds veel discussie met betrekking tot het gestelde doel. Daarnaast is ook nog niet duidelijk hoe de overheid kan garanderen dat de app en de eventueel verzamelde data niet (in de toekomst) oneigenlijk kan worden gebruikt. Vooralsnog zien wij verdeeldheid en zullen een hoop mensen geen app willen gebruiken. 
+
 Gedurende de appathon werd het in ieder geval duidelijk dat de gebruikerswensen van de GGD [[9]](https://www.youtube.com/watch?v=VvEcFsXoDps&feature=youtu.be&t=24318) conflicteren met de eisen die opgenomen zijn in de uitvraag met betrekking tot het verwerken van persoonsgegevens. Wij adviseren het ministerie dan ook om niet nu te kiezen voor een van de zeven Appathon oplossingen. Maar om op basis van de inzichten uit de afgelopen week eerst te onderzoeken in welke mate een app effectief kan zijn bij de ondersteuning van het contact-onderzoek door de regionale GGD's. Scherp, op basis van de uitkomst van dit onderzoek en inzichten uit de gepreseneerde oplossingsrichtingen, de eisen en gewenste functionaliteit van een mogelijke app aan. 
+
 ## Over Code for NL
 Code for NL ondersteunt de overheid bij de digitale transformatie. Wij zijn een netwerk van ontwikkelaars en ontwerpers die samenwerken in een open en inclusieve omgeving waar ruimte is voor (vaak diep-technisch inhoudelijke) discussies. Bij Code For NL heerst de 'doen'-mentaliteit; wij stimuleren mensen om samen te werken en door te pakken. Wij bieden daarvoor de ruimte, maar ook de mogelijkheid stemmen gehoord te laten worden.
+
+
+
 
 _dit document is gemaakt met etherpad en tot stand gekomen met inbreng van spontane deelnemers aan de Code For NL #corona-apps kanalen_
 
