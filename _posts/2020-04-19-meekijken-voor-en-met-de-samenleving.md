@@ -6,6 +6,7 @@ lang: nl
 date: 2020-04-19
 author: Code For NL Community
 layout: blog
+cover: isolated.jpg
 permalink: /appathon/
 ---
 
