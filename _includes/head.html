@@ -25,9 +25,9 @@
   {% else %}
   {% if page.lang == "nl" %}
   <meta property="og:description"
-    content="Code for NL is het netwerk van developers en designers die samenwerken aan een open en eerlijke digitale overheid en samenleving">
+    content="{% if page.excerpt %} {{page.excerpt}} {% else %} Code for NL is het netwerk van developers en designers die samenwerken aan een open en eerlijke digitale overheid en samenleving {% endif %}">
   <meta name="twitter:description"
-    content="Code for NL is het netwerk van developers en designers die samenwerken aan een open en eerlijke digitale overheid en samenleving">
+    content="{% if page.excerpt %} {{page.excerpt}} {% else %} Code for NL is het netwerk van developers en designers die samenwerken aan een open en eerlijke digitale overheid en samenleving {% endif %}">
   {% else %}
   <meta property="og:description"
     content="Code for NL is the Dutch network of developers and designers improving government and society using digital technology.">
