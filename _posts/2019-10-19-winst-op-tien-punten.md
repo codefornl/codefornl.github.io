@@ -79,7 +79,9 @@ Wie wil er nog voor de overheid werken? Die overheid die vaak in het nieuws komt
 Door slim samen te werken en kennis en code te delen kunnen grote besparingen worden gerealiseerd. Bijvoorbeeld bij gemeenten zijn veel bedrijfsprocessen vergelijkbaar en is gezamenlijke ontwikkeling van diensten vaak mogelijk. Dit leidt tot kwalitatief betere producten tegen lagere totaalkosten.
 
 > Onderzoeksbureau Gartner stelt in het ‘Onderzoek Open Source Software’ (in opdracht van BZK) dat de baten kunnen ‘oplopen tot een niveau van €1.1mld per jaar voor de Nederlandse overheid alleen’.
-Binnen het project ‘Landelijke Online Diensten’ (VNG) ontwikkelen gemeenten samen diensten, die alle 380 gemeenten vervolgens kunnen aanbieden. Door de software voor diensten als open source te ontwikkelen ontstaat de mogelijkheid om deze met inbreng van verschillende overheids- en marktpartijen te optimaliseren. 
+Binnen het project ‘Landelijke Online Diensten’ (VNG) ontwikkelen gemeenten samen diensten, die alle 380 gemeenten vervolgens kunnen aanbieden. Door de software voor diensten als open source te ontwikkelen ontstaat de mogelijkheid om deze met inbreng van verschillende overheids- en marktpartijen te optimaliseren.
+
+Dit artikel werd eerder gepubliceerd op [iBestuur](https://ibestuur.nl/nieuws/winst-op-tien-punten).
 
 {% assign people = site.data.mensen | where_exp: "mens", "mens.groups contains 'ibestuur'" | sort: 'ibestuur_sort' %}
 {% include people.html %}
