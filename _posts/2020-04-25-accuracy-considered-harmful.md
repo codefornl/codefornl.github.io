@@ -4,7 +4,7 @@ excerpt: "Waarom we het niet over nauwkeurigheid moeten hebben"
 tagline: De tijd is rijp voor een open source overheid.
 lang: nl
 date: 2020-04-25
-author: G.H. ter Hofte
+author: Henri ter Hofte
 layout: blog
 ---
 
@@ -24,5 +24,5 @@ terecht geen notificatie ontvangen hebben. Dit helpt om onnodige onrust en alarm
 _([Link naar Wikipedia artikel over Sensitiviteit en Specificiteit](https://nl.m.wikipedia.org/wiki/Sensitiviteit_en_specificiteit?wprov=sfla1))_
 
 Iets zowel zeer sensitief als zeer specifiek maken is heel lastig en beide kwaliteiten hebben hun eigen gewicht en overwegingen.
-Gecombineerd met adviezen en maatregelen zoals thuis blijven en contact vermijden, blijkt dat onze 'intelligente lockdown' weliswaar zeer sensitief (veel van de besmettelijke contacten worden vermeden), maar niet bijster specifiek (zeer veel niet-besmettelijke contactenworden ook vermeden: eigenlijk best een 'botte bijl').
+Gecombineerd met adviezen en maatregelen zoals thuis blijven en contact vermijden, blijkt onze 'intelligente lockdown' weliswaar zeer sensitief (veel van de besmettelijke contacten worden vermeden), maar niet bijster specifiek (zeer veel niet-besmettelijke contactenworden ook vermeden: eigenlijk best een 'botte bijl').
 Hadden we maar een set van maatregelen die  (bijna) net zo sensitief waren, maar een stuk specificieker!
