@@ -20,7 +20,7 @@ Een exposure notification app is sensitiever naarmate een groter deel van mensen
 Een exposure notification app is specifieker (soms ook 'selectiever' genoemd) naarmate een groter deel van de mensen die géén besmettelijk contact hebben gehad met een bevestigd zieke persoon 
 terecht geen notificatie ontvangen hebben. Dit helpt om onnodige onrust en alarmmoeheid te voorkomen.
 
-https://nl.m.wikipedia.org/wiki/Sensitiviteit_en_specificiteit?wprov=sfla1
+_([Link naar Wikipedia artikel over Sensitiviteit en Specificiteit](https://nl.m.wikipedia.org/wiki/Sensitiviteit_en_specificiteit?wprov=sfla1))_
 
 Iets tegelijk zeer sensitief als specifiek maken is heel lastig en beide kwaliteiten hebben hun eigen gewicht en overwegingen.
 Gecombineerd met adviezen en maatregelen zoals thuis blijven en contact vermijden, blijkt dat onze 'intelligente lockdown' weliswaar zeer sensitief (veel van de besmettelijke contacten worden vermeden), maar niet bijster specifiek (zeer veel niet-besmettelijke contactenworden ook vermeden: eigenlijk best een 'botte bijl').
