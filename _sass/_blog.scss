@@ -3,6 +3,13 @@
     margin: 60px auto;
     font-family: $header-font;
     color: $highlight-inverse;
+    .reading-time {
+        padding: 0 80px 12px;
+        text-align: left;
+        display: block;
+        font-family: $body-font;
+        font-style: italic;
+    }
 }
 
 .blog-box__title {

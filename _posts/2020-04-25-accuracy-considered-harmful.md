@@ -1,0 +1,28 @@
+---
+title: "Accuracy considered harmful"
+excerpt: "Waarom we het niet over nauwkeurigheid moeten hebben"
+tagline: De tijd is rijp voor een open source overheid.
+lang: nl
+date: 2020-04-25
+author: Henri ter Hofte
+layout: blog
+---
+
+## Waarom we het niet over nauwkeurigheid moeten hebben
+
+Abstract: zie [https://youtu.be/vBPFaM-0pI8](https://youtu.be/vBPFaM-0pI8)
+
+**Het zal sommigen misschien zijn opgevallen dat ik het woord 'nauwkeurigheid' liever vermijd en het liever over specificiteit en sensitiviteit heb als het gaat om het detecteren van besmettelijke situaties ('contact').**
+
+De video uit de abstract van Hannah Fry en standup mathematician Matt Parker illustreert het heel beeldend.
+Een exposure notification app is sensitiever naarmate een groter deel van mensen die besmettelijk contact hebben gehad met een bevestigd zieke persoon terecht een notificatie krijgen Dit helpt om een vals gevoel van veiligheid te vermijden.
+
+Een exposure notification app is specifieker (soms ook 'selectiever' genoemd) naarmate een groter deel van de mensen die géén besmettelijk contact hebben gehad met een bevestigd zieke persoon 
+terecht geen notificatie ontvangen hebben. Dit helpt om onnodige onrust en alarmmoeheid te voorkomen.
+
+https://nl.m.wikipedia.org/wiki/Sensitiviteit_en_specificiteit?wprov=sfla1
+
+Iets tegelijk zeer sensitief als specifiek maken is heel lastig en beide kwaliteiten hebben hun eigen gewicht en overwegingen.
+Gecombineerd met adviezen en maatregelen zoals thuis blijven en contact vermijden, blijkt dat onze 'intelligente lockdown' weliswaar zeer sensitief (veel van de besmettelijke contacten worden vermeden), maar niet bijster specifiek (zeer veel niet-besmettelijke contactenworden ook vermeden: eigenlijk best een 'botte bijl').
+
+Hadden we maar een set van maatregelen die  (bijna) net zo sensitief waren, maar een stuk specificieker!

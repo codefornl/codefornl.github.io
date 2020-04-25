@@ -1,5 +1,5 @@
 ---
-title: "Appathon’ was democratie in actie"
+title: "'Appathon’ was democratie in actie"
 excerpt: "Het idee achter de ‘appathon’ is een schoolvoorbeeld van een open democratisch proces dat absoluut navolging verdient."
 tagline: De tijd is rijp voor een open source overheid.
 lang: nl
