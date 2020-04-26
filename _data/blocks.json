@@ -9,6 +9,10 @@
             "programs": "Programs"
         }
     },
+    "blog": {
+        "nl": "Blog",
+        "en": "Blog"
+    },
     "office": {
         "nl": "Bezoekadres",
         "en": "Visiting address"

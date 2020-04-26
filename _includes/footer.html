@@ -1,21 +1,24 @@
 <footer>
-  <div class="founder">
-
+  <div class="footer-item">
     {% for item in site.data.founders[page.lang] %}
     <div class="founder">
-        <p>{{item.title}}</p>
-        <a href="{{item.link}}"><img src="{{item.img}}"></a>
-        {% endfor %}
-
+      <p>{{item.title}}</p>
+      <a href="{{item.link}}"><img src="{{item.img}}"></a>
     </div>
-    <div class="founder-details">
-      <p>
-        <a href="https://www.codefor.nl">{{site.data.blocks.website[page.lang]}}</a><br>
-        <a href="https://collecties.codefor.nl">{{site.data.blocks.collections[page.lang]}}</a><br>
-        <a href="https://github.com/codefornl">Github</a><br>
-        <a href="https://twitter.com/codefornl">Twitter</a><br>
-        <a href="https://codefornl.slack.com">Slack</a><br>
-      </p>
+    {% endfor %}
+    
+  </div>
+  <div class="footer-item">
+    <p>
+      <a href="https://www.codefor.nl">{{site.data.blocks.website[page.lang]}}</a><br>
+      <a href="/blog">{{site.data.blocks.blog[page.lang]}}</a><br>
+      <a href="https://collecties.codefor.nl">{{site.data.blocks.collections[page.lang]}}</a><br>
+      <a href="https://github.com/codefornl">Github</a><br>
+      <a href="https://twitter.com/codefornl">Twitter</a><br>
+      <a href="https://codefornl.slack.com">Slack</a><br>
+    </p>
+  </div>
+  <div class="footer-item">
       <p>
         Stichting <b>Code for NL</b><br>
         {{{{site.data.blocks.commerce[page.lang]}} <a target="_blank" href="https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=69749477">69749477</a>
@@ -31,14 +34,6 @@
         Wilhelmina van Pruisenweg 35<br>
         2595 AN  Den Haag
       </p>
-      <br>
-      <!--<p>
-        <a class="twitterBtn smGlobalBtn" href="https://twitter.com/codefornl" title="Code for NL op Twitter"></a>
-        <a class="githubBtn smGlobalBtn" href="https://github.com/codefornl" title="Code for NL Github"></a>
-      </p>-->
-
-    </div>
-
     </div>
 </footer>
 {% include script.html %}

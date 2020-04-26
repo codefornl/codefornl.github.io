@@ -1,6 +1,7 @@
 @import "base";
 @import "variables";
 @import "nav";
+@import "footer";
 @import "blog";
 @import 'item';
 @import "action";
@@ -33,15 +34,6 @@ header {
         text-align: center;
         color: $secondary-inverse;
     }
-}
-
-footer {
-    min-height: 200px;
-    background: $secondary-inverse;
-    padding: 3em;
-    margin: 0 auto;
-    color: $text-light;
-    max-width: 100%;
 }
 
 .green-text {
@@ -780,4 +772,8 @@ blockquote p {
 
 .waaromoss td {
     padding: 10px;
+}
+
+.founder {
+    margin-bottom: 1em;
 }
