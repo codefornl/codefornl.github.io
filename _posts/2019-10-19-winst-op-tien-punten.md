@@ -6,6 +6,7 @@ lang: nl
 date: 2019-10-19
 author: Johan Groenen
 layout: blog
+cover: misunderstood.png
 permalink: /ibestuur/
 ---
 

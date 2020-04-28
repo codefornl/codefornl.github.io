@@ -5,6 +5,7 @@ lang: nl
 date: 2017-09-11
 author: Johan Groenen
 layout: blog
+cover: realpeople.png
 ---
 
 Marc Andreessen, software-ontwikkelaar, co-founder van Netscape en succesvolle investeerder in technologie, had het er in 2011 al over: “software is eating the world”. Wat hij daarmee bedoelde legde hij onlangs nogmaals uit (https://youtu.be/GfZ41h086N4?t=23m10s):

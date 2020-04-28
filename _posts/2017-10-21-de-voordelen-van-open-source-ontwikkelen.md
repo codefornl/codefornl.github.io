@@ -5,6 +5,7 @@ lang: nl
 date: 2017-10-21
 author: Johan Groenen
 layout: blog
+cover: lockin.png
 ---
 
 Vertaling van: [The benefits of coding in the open](https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/) oorspronkelijke auteur: [Anna Shipman](https://gds.blog.gov.uk/author/anna-shipman/)
