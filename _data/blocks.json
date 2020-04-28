@@ -13,6 +13,22 @@
         "nl": "Blog",
         "en": "Blog"
     },
+    "communityprojects": {
+        "nl": "Manifest voor community projecten",
+        "en": "Manifest for community projects"
+    },
+    "aiwithimpact": {
+        "nl": "AI met Impact",
+        "en": "AI with impact"
+    },
+    "fellowships": {
+        "nl": "Over Fellowships",
+        "en": "About Fellowships"
+    },
+    "volunteers": {
+        "nl": "Voor vrijwilligers",
+        "en": "For volunteers"
+    },
     "office": {
         "nl": "Bezoekadres",
         "en": "Visiting address"
