@@ -23,17 +23,10 @@
   <meta property="og:description" content="{{ page.description }}">
   <meta name="twitter:description" content="{{ page.description }}">
   {% else %}
-  {% if page.lang == "nl" %}
   <meta property="og:description"
-    content="{% if page.excerpt %} {{page.excerpt}} {% else %} Code for NL is het netwerk van developers en designers die samenwerken aan een open en eerlijke digitale overheid en samenleving {% endif %}">
+    content="{% if page.excerpt %} {{page.excerpt}} {% else %} {{site.description[page.lang]}} {% endif %}">
   <meta name="twitter:description"
-    content="{% if page.excerpt %} {{page.excerpt}} {% else %} Code for NL is het netwerk van developers en designers die samenwerken aan een open en eerlijke digitale overheid en samenleving {% endif %}">
-  {% else %}
-  <meta property="og:description"
-    content="Code for NL is the Dutch network of developers and designers improving government and society using digital technology.">
-  <meta name="twitter:description"
-    content="Code for NL is the Dutch network of developers and designers improving government and society using digital technology.">
-  {% endif %}
+    content="{% if page.excerpt %} {{page.excerpt}} {% else %} {{site.description[page.lang]}} {% endif %}">
   {% endif %}
 
   <!-- preview image -->
@@ -51,7 +44,7 @@
 
   <meta name="keywords"
     content="{{ site.defaulttags | join: ', ' }}{% if page.tags %},{{ page.tags | join: ', '}}{% endif %}">
-
+  <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
   <!-- style -->
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="all">
 </head>

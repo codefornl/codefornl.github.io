@@ -1,4 +1,8 @@
 name: Code For NL
+title: Code For NL
+description:
+  nl: Code for NL is het netwerk van developers en designers die samenwerken aan een open en eerlijke digitale overheid en samenleving
+  en: Code for NL is the Dutch network of developers and designers improving government and society using digital technology.
 sass:
   style: compressed
 defaulttags:
