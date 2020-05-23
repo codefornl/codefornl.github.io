@@ -5,43 +5,11 @@ lang: en
 tagline: Making Goverment Work In The Digital Age.
 permalink: /en/
 ---
-<section>
-  <p class="headline">
-    <b>Code for NL</b> is the Dutch network of
-    developers and designers working on an open and fair
-    digital government and society.
-  </p>
-  <p class="headline">
-    Our goal is the successful
-    digital transformation of municipalities, other governments,
-    and society as a whole.
-  </p>
-  <p class="headline">
-    Code for NL is a governing partner of the international <a href="https://codeforall.org">Code for All</a>
-    network.
-  </p>
+<section class="text-center">
+  <h1>We are Code for NL</h1>
+  <p class="banner-text">Code for NL is the Dutch community of developers and designers that work together on an open, fair, and inclusive digital government and society.</p>
+  <p class="banner-text">Our goal is the successful digital transformation of local governments, central government, and society as a whole.</p>
+  <p class="banner-text">Code for NL is governing partner of the international Code for All network.</p>
 </section>
-
-<section>
-  <h1>Organisation</h1>
-
-  {% for mens in site.data.mensen %}{% if mens.groups contains "board" or mens.groups contains "active" %}
-
-  <div class="person">
-    <img class="picture" src="{{ mens.img }}">
-    <p>
-      {{ mens.name }}<br>
-      {{ mens.function_en }}<br>
-      <a href="mailto:{{ mens.email }}">{{ mens.email }}</a>
-    </p>
-    <p class="social">
-      {% if mens.linkedin %}<a class="linkedinBtn smGlobalBtn" href="{{ mens.linkedin }}"></a>{% endif %}
-      {% if mens.twitter %}<a class="twitterBtn smGlobalBtn" href="{{ mens.twitter }}"></a>{% endif %}
-      {% if mens.github %}<a class="githubBtn smGlobalBtn" href="{{ mens.github }}"></a>{% endif %}
-      {% if mens.website %}<a class="websiteBtn smGlobalBtn" href="{{ mens.website }}"></a>{% endif %}
-    </p>
-  </div>
-
-  {% endif %}
-  {% endfor %}
-</section>
+<a id="community"></a>
+{% include community.html %}

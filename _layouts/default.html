@@ -6,12 +6,17 @@
 <body>
   {% include nav.html %}
   {% include action.html %}
+  {{ content }}
   {% include heroins.html %}
-  <a id="testjeleeg"></a>
+
+  <div class="action-box">
+    {% assign action = site.data.blocks.corona[page.lang] %}
+    <div class="action-box__action">&quot;<span>{{action.title}}</span>&quot;</div>
+    <div class="action-box__link"><span><a href="{{action.link}}" class="action-box__link">{{ action.link_title }}</a></span></div>
+  </div>
+
   <a id="tfnt"></a>
   {% include tfnt.html %}
-  <a id="community"></a>
-  {% include community.html %}
   <a id="meetups"></a>
   {% include meetups.html %}
   <a id="organisatie"></a>
