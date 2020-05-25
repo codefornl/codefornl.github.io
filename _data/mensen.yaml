@@ -12,8 +12,8 @@
 - name: Ivonne Jansen - Dings
   organisation: bestuur
   function:
-    nl: penningmeester
-    en: treasurer
+    nl: secretaris
+    en: secretary
   email: ivonne@codefor.nl
   img: /img/bestuur/ivonne.png
   linkedin: https://www.linkedin.com/in/ivonnejansendings/
@@ -24,8 +24,8 @@
 - name: Johan Groenen
   organisation: bestuur
   function:
-    nl: secretaris
-    en: secretary
+    nl: penningmeester
+    en: treasurer
   email: johan@codefor.nl
   img: /img/bestuur/johan.png
   linkedin: https://www.linkedin.com/in/jgroenen/
