@@ -23,4 +23,6 @@ New projects regularly arise from the Code for NL community. We call this Code f
 
 # Overview of Code for NL *Community Projects*
 
-[https://collecties.codefor.nl/cbase/code-for-nl-community-projects-4ddffd44e7d9ec944c3bd11998919235](https://collecties.codefor.nl/cbase/code-for-nl-community-projects-4ddffd44e3d9119899)
+[https://collecties.codefor.nl/cbase/corona-initiatieven-7f1b1d68b2b0a8c621f114e190c98869](https://collecties.codefor.nl/cbase/corona-initiatieven-7f1b1d68b2b0a8c621f114e190c98869)
+
+<!-- [https://collecties.codefor.nl/cbase/code-for-nl-community-projects-4ddffd44e7d9ec944c3bd11998919235](https://collecties.codefor.nl/cbase/code-for-nl-community-projects-4ddffd44e3d9119899) -->
