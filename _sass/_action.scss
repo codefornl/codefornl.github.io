@@ -30,6 +30,15 @@
     font-family: $header-font;
     max-width: 900px;
     margin: auto;
+    span {
+        quotes: '\201c' '\201d';
+        &::before{
+            content: open-quote;
+        }
+        &::after {
+            content: close-quote;
+        }
+    } 
 }
 
 .action-appathon-statement-announcement .action-box__action {
