@@ -2,7 +2,14 @@
 
 @import "https://fonts.googleapis.com/css?family=Anton&amp;display=swap";
 
-$body-font: "Roboto", "Roboto", sans-serif;
+
+$font: "Roboto", "Roboto", sans-serif;
+
+$font-size: 8px;
+$font-size-medium: ($font-size * 2);
+$font-size-large: ($font-size * 4);
+$font-size-huge: ($font-size * 5);
+
 $header-font: "Anton", sans-serif;
 
 /* Coolors Exported Palette - coolors.co/e15532-ec8c39-70c09d-666666-cccccc */
@@ -11,7 +18,7 @@ $color2: #EB8C3A;
 $color3: #71BF9D;
 $color4: #777876;
 $color5: #fff;
-
+$body-color: #fff;
 $primary-color: $color1;
 $primary-inverse: $color5;
 

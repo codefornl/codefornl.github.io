@@ -1,5 +1,5 @@
-@import "base";
 @import "variables";
+@import "base";
 @import "nav";
 @import "footer";
 @import "blog";
@@ -14,9 +14,9 @@ body {
     margin: 0 auto;
     padding: 0;
     max-width: 100%;
-    font-family: $body-font;
-    font-size: 100%;
+    font-family: $font;
     color: $text-dark;
+    background: $body-color;
 }
 
 a {
@@ -30,7 +30,6 @@ section {
 header {
     h2 {
         margin: 80px 0;
-        font-size: 1.6em;
         text-align: center;
         color: $secondary-inverse;
     }
@@ -66,7 +65,6 @@ header {
 
     h1 {
         color: $secondary-color;
-        font-size: 1.4em;
         margin-top: 0;
     }
 }
@@ -92,10 +90,6 @@ header {
     filter: grayscale(80%);
 }
 
-.col-link h2 {
-    font-size: 1em;
-}
-
 .col-link:hover img {
     filter: none;
 }
@@ -105,12 +99,10 @@ header {
 }
 
 p.headline {
-    font-size: 1.3em;
     margin-bottom: 0em;
 }
 
 p.banner-text {
-    font-size: 1.6em;
     line-height: 1.4em;
     color: #777876;
 }
@@ -150,7 +142,6 @@ img.social {
 
 a.cta_button {
     display: block;
-    font-size: 1.2em;
     color: $text-light;
     background: $highlight-color;
     box-shadow: 0px 3px 2px $border-color;
@@ -183,7 +174,6 @@ a.cta_button_inline {
     text-decoration: none;
     text-align: center;
     color: $text-light;
-    font-size: 18px;
     font-weight: normal;
     line-height: 30px;
     border-radius: $border-radius;
@@ -291,7 +281,6 @@ a.cta_button_inline {
 }
 
 p.intro {
-    font-size: 1.2em;
     font-weight: 700;
 }
 
@@ -338,7 +327,7 @@ span.badge {
 }
 
 .card-title {
-    font-size: 1.4em;
+    font-size: $font-size-medium;
 }
 
 .card-label {
@@ -355,15 +344,15 @@ h3 {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: $font-size-huge;
 }
 
 h2 {
-    font-size: 2.4em;
+    font-size: $font-size-large;
 }
 
 h3 {
-    font-size: 1.8em;
+    font-size: $font-size-medium;
 }
 
 .text-center {
@@ -456,11 +445,11 @@ button:hover {
 
 }
 
-.heroins__txt h2 {
+.heroins__txt h3 {
     margin-top: 24px;
     font-family: $header-font;
     color: $color4;
-    font-size: 32px;
+    font-size: $font-size-medium;
     text-transform: uppercase;
     line-height: 36px;
 }
@@ -471,10 +460,6 @@ button:hover {
     padding: 3em;
 }
 
-.quote-box p {
-    font-size: 1.3em;
-}
-
 .quote-box__quote,
 .quote-box__author {
     font-family: $header-font;
@@ -482,18 +467,18 @@ button:hover {
 }
 
 .quote-box__quote {
-    font-size: 64px;
+    font-size: $font-size-huge;
     line-height: 1.4em;
 }
 
 .quote-box__author {
-    font-size: 32px;
+    font-size: $font-size-medium;
     text-align: left;
     padding: 20px 100px 64px;
 }
 
 .quote-box__author.text-center {
-    font-size: 24px;
+    font-size: $font-size-medium;
     text-align: center;
     padding: 0;
 }
@@ -597,7 +582,7 @@ blockquote {
 blockquote:before {
     color: $highlight-inverse;
     content: "\201C";
-    font-size: 4em;
+    font-size: $font-size-medium;
     line-height: 0.1em;
     margin-right: 0.25em;
     vertical-align: -0.4em;
@@ -607,13 +592,13 @@ blockquote p {
     color: $secondary-inverse;
     display: inline;
     font-style: italic;
-    font-size: 1.2em;
+    font-size: $font-size-medium;
 }
 
 /*  Smartphones in landscape mode */
 @media only screen and (min-width: 421px) and (max-width: 767px) {
     .quote-box__quote {
-        font-size: 48px;
+        font-size: $font-size-medium;
     }
 
     .left {
@@ -677,14 +662,9 @@ blockquote p {
 
 /*  Smartphones in portrait mode  */
 @media only screen and (max-width: 420px) {
-    h2 {
-        font-size: 2em;
-    }
-
     .quote-box__quote {
         line-height: 1.4em;
         padding: 28px 60px 40px;
-        font-size: 28px;
     }
 
     .top-60 {

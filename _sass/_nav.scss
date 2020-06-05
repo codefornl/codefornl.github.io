@@ -16,7 +16,7 @@ nav {
     display: inline-block;
     font-family: $header-font;
     color: $secondary-inverse;
-    font-size: 32px;
+    font-size: $font-size-medium;
 }
 
 .nav__menu a {

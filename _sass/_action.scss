@@ -42,30 +42,30 @@
 }
 
 .action-appathon-statement-announcement .action-box__action {
-    font-size: 42px;
+    font-size: $font-size-large;
 }
 
 .action-box__author {
-    font-size: 24px;
+    font-size: $font-size-medium;
     padding: 0px 198px 40px;
     max-width: 900px;
     margin: auto;
 }
 
 .action-box__text {
-    font-size: 24px;
+    font-size: $font-size-medium;
     padding: 0px 198px 40px;
     max-width: 900px;
     margin: auto;
 }
 .action-box__textappa {
-    font-size: 20px;
+    font-size: $font-size-medium;
     padding: 0px 198px 40px;
 
 }
 
 .action-box__link {
-    font-size: 32px;
+    font-size: $font-size-medium;
     padding: 20px 20px 0 0;
     color: $text-light;
     text-align: right;
@@ -78,20 +78,20 @@
 
 @media #{$media-xl} {
     .action-box__action {
-        font-size: 64px;
+        font-size: $font-size-huge;
     }
     .action-appathon-statement-announcement .action-box__action {
-        font-size: 42px;
+        font-size: $font-size-large;
     }
 }
 
 @media #{$media-l} {
     .action-box__action {
-        font-size: 64px;
+        font-size: $font-size-huge;
         line-height: 1.4em;
     }
     .action-appathon-statement-announcement .action-box__action {
-        font-size: 42px;
+        font-size: $font-size-large;
     }
     .action-box__textappa,
     .action-box__text,
@@ -103,11 +103,11 @@
 
 @media #{$media-m} {
     .action-box__action {
-        font-size: 56px;
+        font-size: $font-size-large;
         line-height: 1.4em;
     }
     .action-appathon-statement-announcement .action-box__action {
-        font-size: 42px;
+        font-size: $font-size-large;
     }
     .action-box__textappa,
     .action-box__text,
@@ -122,14 +122,14 @@
 
 @media #{$media-s} {
     .action-box__action {
-        font-size: 28px;
+        font-size: $font-size-medium;
         line-height: 1.4em;
     }
     .action-appathon-statement-announcement .action-box__link {
-        font-size: 24px;
+        font-size: $font-size-medium;
     }
     .action-appathon-statement-announcement .action-box__action {
-        font-size: 28px;
+        font-size: $font-size-medium;
     }
     .action-box__textappa,
     .action-box__text,
@@ -146,13 +146,13 @@
 @media #{$media-xs} {
     .action-box__action {
         line-height: 1.4em;
-        font-size: 28px;
+        font-size: $font-size-medium;
     }
     .action-appathon-statement-announcement .action-box__link {
-        font-size: 24px;
+        font-size: $font-size-medium;
     }
     .action-appathon-statement-announcement .action-box__action {
-        font-size: 28px;
+        font-size: $font-size-medium;
     }
     .action-box__textappa,
     .action-box__text,

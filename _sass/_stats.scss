@@ -10,12 +10,11 @@
 
         .stat-number {
             font-family: $header-font;
-            font-size: 5em;
+            font-size: $font-size-huge;
             margin: 0.3em 0;
         }
 
         .stat-text {
-            font-size: 1.6em;
             line-height: 1.4em;
             color: $color4;
         }
