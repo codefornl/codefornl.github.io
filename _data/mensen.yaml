@@ -48,7 +48,7 @@
   groups: [ibestuur,nl-design-system]
   ibestuur_sort: 1
 
-- name: Sander van Waal
+- name: Sander van der Waal
   organisation: bestuur
   function:
     nl: bestuurslid
