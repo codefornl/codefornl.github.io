@@ -78,16 +78,16 @@
             "title": "Community",
             "content": "Wij zijn het netwerk van developers en designers die samenwerken aan een open en eerlijke digitale overheid en samenleving.",
             "slack_tagline": "Praat mee op Slack",
-            "name": "naam",
-            "email": "email",
+            "name": "Voornaam",
+            "email": "E-mail",
             "signup": "Meld je aan"
         },
         "en": {
             "title": "Community",
             "content": "We are the developers and designers collaborating on a fair and open digital government and digital society.",
             "slack_tagline": "Join us on Slack",
-            "name": "name",
-            "email": "email",
+            "name": "First name",
+            "email": "E-mail",
             "signup": "Register"
         }
     },
