@@ -41,20 +41,8 @@ nav {
     div {
         display: flex;
         flex-direction: column;
-
-        span {
-            text-transform: uppercase;
-            text-align: center;
-            font-size: 28px;
-            margin: 0 48px 0 0;
-            padding: 0;
-        }
-
-        p {
-            font-size: 12px;
-            margin: 0;
-        }
     }
+
     .nav__hamburger {
         flex-grow: 1;
         flex-direction: row-reverse;
@@ -66,8 +54,6 @@ nav {
 
     }
 }
-
-
 
 .hamburger {
     position: relative;
@@ -94,7 +80,7 @@ nav {
 }
 
 .nav__menu {
-    text-transform: uppercase;
+    text-transform: $header-case;
     padding-top: 0;
     margin: 64px 0 0 0;
 }

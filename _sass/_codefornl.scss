@@ -24,7 +24,7 @@ a {
 }
 
 section {
-    margin: 60px auto;
+    margin: $header-margin;
     padding: 1em;
 }
 header {
@@ -450,7 +450,7 @@ button:hover {
     font-family: $header-font;
     color: $color4;
     font-size: $font-size-medium;
-    text-transform: uppercase;
+    text-transform: $header-case;
     line-height: 36px;
 }
 

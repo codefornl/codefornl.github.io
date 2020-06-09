@@ -1,7 +1,7 @@
 
 .action-box {
     background: $color3;
-    margin: 60px auto;
+    margin: $header-margin;
     padding: 20px 0;
     font-family: $header-font;
     color: $highlight-inverse;
@@ -12,13 +12,13 @@
 
 .action-box__corona {
     background: $color4;
-    margin: 60px auto;
+    margin: $header-margin;
     color: $highlight-inverse;
 }
 
 .action-box__appathon {
     background: $color4;
-    margin: 60px auto;
+    margin: $header-margin;
     color: $highlight-inverse;
     max-width: 900px;
     margin: auto;

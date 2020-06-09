@@ -1,6 +1,6 @@
 .blog-box {
     background: $color3;
-    margin: 60px auto;
+    margin: $header-margin;
     font-family: $header-font;
     color: $highlight-inverse;
     .reading-time {
