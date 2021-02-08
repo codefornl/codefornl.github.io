@@ -3,6 +3,46 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
 <script>
+    getFeed = function (elementClass) {
+        console.log("getting Feed")
+        const RSS_URL = `/feed.xml`;
+
+        fetch(RSS_URL)
+            .then(response => response.text())
+            .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+            .then(data => {
+                const items = data.querySelectorAll("item");
+                let html = ``;
+                items.forEach(el => {
+                    html += '<div class="post__item">';
+
+                    var image = el.querySelector("image");
+                    if (image) {
+                        var image_url = image.querySelector("url").innerHTML;
+                        html += `<a href="${el.querySelector("link").innerHTML}">`;
+                        html += `<img class="post__item-image" src="${image_url}" alt="">`;
+                        html += '</a>';
+                    } else {
+                        html += `<a href="${el.querySelector("link").innerHTML}">`;
+                        html += `<img class="post__item-image" src="/img/default.png" alt="">`;
+                        html += '</a>';
+                    }
+                    html += `
+                        <span class="card-title">${el.querySelector("title").innerHTML}</span>
+                        <p>${el.querySelector("description").innerHTML}</p>
+                        <a href="${el.querySelector("link").innerHTML}">lees meer...</a>
+                        </div>
+                    `;
+                });
+                var elements = document.getElementsByClassName(elementClass);
+                for (let i = 0; i < elements.length; i++) {
+                    elements[i].innerHTML = html;
+                }
+            });
+    }
+
+
+
     /**
      * Actions, disabled for now
      */

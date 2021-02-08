@@ -11,6 +11,7 @@
                 "<span>{{page.title}}</span>"
                 <br>
             </div>
+            
             {% if page.author %}
             <div class="reading-time" title="Leestijd">
                 <div>Gepubliceerd op: <span>{{page.date | date: "%Y-%m-%d"}}</span></div>
@@ -27,13 +28,11 @@
             {% endif %}
         </div>
     </header>
+    
     <section class="blog">
-
-
         {{ content }}
     </section>
     {% include community.html %}
     {% include footer.html %}
 </body>
-
 </html>

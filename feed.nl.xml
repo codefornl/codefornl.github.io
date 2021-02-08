@@ -18,6 +18,11 @@ lang: nl
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.excerpt | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        {% if post.cover %}
+        <image>
+        <url>{{ post.cover | prepend: '/img/posts/' | prepend: site.baseurl | prepend: site.url }}</url>
+        </image>
+        {% endif %}
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
         {% for tag in post.tags %}

@@ -5,7 +5,8 @@ tagline: Samenwerken aan de Digitale Overheid.
 lang: nl
 ---
 
-<div class="post__container">
+<div class="post__container">Even geduld, het blog wordt geladen...</div>
+<!--
   {% for post in site.posts %}
   <div class="post__item">
     <a href="{{ post.url }}">
@@ -31,4 +32,9 @@ lang: nl
     <a href="{{ post.url }}">lees meer..</a>
   </div>
   {% endfor %}
-</div>
+</div> -->
+<script>
+  document.addEventListener("DOMContentLoaded", (event) => {
+    getFeed("post__container");
+  });
+</script>
