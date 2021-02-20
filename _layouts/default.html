@@ -7,7 +7,14 @@
 
   <section class="hero">
     {% include nav.html %}
-    <div class="hero__content"></div>
+    <div class="hero__content">
+      <div class="grid-box">
+        <div class="col-7">
+            <h1 class="hero-title">{{ page.title}}</h1>
+            <p class="hero-lead-in">{{ page.tagline}}</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <div class="page-content">

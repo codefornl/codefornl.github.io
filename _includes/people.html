@@ -1,19 +1,23 @@
-<section  class="text-center">
-  <p class="h2">{{ site.data.blocks.organisation[page.lang]}}</p>
-  <div class="person-list">
-  {% for mens in people %}
-  <div class="face">
-    <img class="face__photo" src="{{ mens.img }}" alt="{{mens.name}}"/>
-    <a class="face__name" href="mailto:{{ mens.email }}">{{ mens.name }}</a>
-    <p class="face__title">
-      {{ mens.function[page.lang] }}</p>
-    <p class="social">
-      {% if mens.linkedin %}<a class="linkedinBtn smGlobalBtn" href="{{ mens.linkedin }}"></a>{% endif %}
-      {% if mens.twitter %}<a class="twitterBtn smGlobalBtn" href="{{ mens.twitter }}"></a>{% endif %}
-      {% if mens.github %}<a class="githubBtn smGlobalBtn" href="{{ mens.github }}"></a>{% endif %}
-      {% if mens.website %}<a class="websiteBtn smGlobalBtn" href="{{ mens.website }}"></a>{% endif %}
-    </p>
+<div class="slab">
+  <h2>{{ site.data.blocks.organisation[page.lang]}}</h2>
+  <div class="grid-box">
+
+    {% for mens in people %}
+    <div class="grid-item col-3">
+      <div class="face">
+        <img class="face__photo" src="{{ mens.img }}" alt="{{mens.name}}" />
+        <a class="face__name" href="mailto:{{ mens.email }}">{{ mens.name }}</a>
+        <p class="face__title">
+          {{ mens.function[page.lang] }}</p>
+        <p class="social">
+          {% if mens.linkedin %}<a class="linkedinBtn smGlobalBtn" href="{{ mens.linkedin }}"></a>{% endif %}
+          {% if mens.twitter %}<a class="twitterBtn smGlobalBtn" href="{{ mens.twitter }}"></a>{% endif %}
+          {% if mens.github %}<a class="githubBtn smGlobalBtn" href="{{ mens.github }}"></a>{% endif %}
+          {% if mens.website %}<a class="websiteBtn smGlobalBtn" href="{{ mens.website }}"></a>{% endif %}
+        </p>
+      </div>
+    </div>
+    {% endfor %}
+
   </div>
-  {% endfor %}
 </div>
-</section>

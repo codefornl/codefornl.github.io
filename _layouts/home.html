@@ -15,32 +15,33 @@
       {{ content }}
       {% include heroins.html %}
 
-
-      <div class="grid-box">
-        <div class="col-7">
+      <div class="slab">
+        <div class="grid-box">
+          <div class="col-7">
             <blockquote class="blockquote" cite="{{action.link}}">
-                {% assign corona = site.data.blocks.corona[page.lang] %}
-                <p>“{{corona.title}}”</p>
-                <footer class="blockquote__footer">
-                    {{corona.author}} in <cite title="{{corona.link_title}}"><a
-                            href="{{corona.link}}">{{corona.link_title}}</a></cite>
-                </footer>
+              {% assign corona = site.data.blocks.corona[page.lang] %}
+              <p>“{{corona.title}}”</p>
+              <footer class="blockquote__footer">
+                {{corona.author}} in <cite title="{{corona.link_title}}"><a
+                    href="{{corona.link}}">{{corona.link_title}}</a></cite>
+              </footer>
             </blockquote>
+          </div>
         </div>
-    </div>
+      </div>
 
-
-  <a id="tfnt"></a>
-  {% include tfnt.html %}
-  <a id="meetups"></a>
-  {% include meetups.html %}
-  <a id="organisatie"></a>
-  {% assign people = site.data.mensen | where_exp: "mens", "mens.groups contains 'board'" %}
-  {% include people.html %}
+      <a id="tfnt"></a>
+      {% include tfnt.html %}
+      <a id="meetups"></a>
+      {% include meetups.html %}
+      <a id="organisatie"></a>
+      {% assign people = site.data.mensen | where_exp: "mens", "mens.groups contains 'board'" %}
+      {% include people.html %}
     </main>
   </div>
-  
-  
+
+
   {% include footer.html %}
 </body>
+
 </html>
