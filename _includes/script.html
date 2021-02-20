@@ -3,6 +3,16 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
 <script>
+    $(document).ready(function () {
+        $('.global-header').on('click', 'a.js-toggle-mobile-navigation', function (e) {
+            e.preventDefault();
+            $('body').toggleClass('mobile-navigation-is-active');
+        });
+        $('.global-header-menu').on('click', 'a', function (e) {
+            $('body').toggleClass('mobile-navigation-is-active');
+        });
+        
+    });
     getFeed = function (elementClass) {
         console.log("getting Feed")
         const RSS_URL = `http://www.rssmix.com/u/12755085/rss.xml`;

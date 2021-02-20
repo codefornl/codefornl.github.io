@@ -1,4 +1,5 @@
 @import 'main';
+
 .container-fluid {
     margin-right: auto;
     margin-left: auto;
@@ -24,6 +25,15 @@
     padding: 0.5rem 0.75rem;
 }
 
+
+.global-header::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 .global-header a.button--primary,
 .global-header a.banner__action--primary,
 .global-header .banner__action--primary.card__link,
@@ -43,6 +53,26 @@
 .global-header-buttons .button.card-link {
     margin-left: 0.5rem;
     margin-right: 0;
+}
+
+.template-home .home-hero-image {
+    margin-bottom: -2rem
+}
+
+.template-home .home-hero-image {
+    @include media($tablet-up) {
+        position: absolute;
+        bottom: -1rem;
+        margin-bottom: 0
+    }
+}
+
+.template-home .home-hero-image {
+    @include media($midscreen-up) {
+        position: relative;
+        bottom: 0;
+        margin-bottom: -2rem
+    }
 }
 
 .template-home .home-hero::after {
@@ -76,6 +106,7 @@
     margin-bottom: 1rem;
     font-weight: 400;
 }
+
 .template-home .home-hero-content {
     padding: 1rem 20px;
     position: relative;
@@ -95,14 +126,17 @@
 }
 
 .template-home .home-hero-content .grid-box {
-    min-height: 20rem;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
+    @include media($tablet-up) {
+        min-height: 20rem;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+    }
 }
 
-.border-top-slab::before, .border-bottom-slab::before {
+.border-top-slab::before,
+.border-bottom-slab::before {
     content: "";
     display: block;
     position: absolute;
@@ -116,7 +150,9 @@
     margin-right: auto;
     background-color: #dfdfdf;
 }
-.border-top-slab, .border-bottom-slab {
+
+.border-top-slab,
+.border-bottom-slab {
     position: relative;
 }
 

@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="button-menu global-header-buttons align-right" role="navigation">
-          <div class="menu-item global-header-search searchbar">
+          <div class="global-header-search searchbar" style="float:left;">
             <form action="/search">
               <input type="text" class="searchbar-input" name="q" placeholder="Zoek..." aria-label="Search" value="">
               <button class="searchbar-button"></button>
@@ -31,7 +31,7 @@
           <a class="menu-item button button--sm button--primary" href="/donate"
             title="Donate" onclick="ga('send', 'event', 'donate', 'click', 'Clicked on donate button.');">Doneer</a>
           <a class="menu-item button button--sm js-menu-button js-toggle-mobile-navigation" href="#"
-            title="Open menu"><span class="fa fa-bars"></span> Menu</a>
+            title="Menu openen"><span class="fa fa-bars"></span> Menu</a>
         </div>
       </div>
     </div>
@@ -39,7 +39,7 @@
       <div class="grid-item col-12 global-header-navigation mobile-navigation">
         <div class="mobile-navigation-button">
           <a class="button button--sm button--reverse js-toggle-mobile-navigation" href="#"><span
-              class="fa fa-times"></span> Close Menu</a>
+              class="fa fa-times"></span> Menu sluiten</a>
         </div>
         <div class="bar-menu global-header-menu align-left" role="navigation">
           {% if page.lang == "nl" %}
