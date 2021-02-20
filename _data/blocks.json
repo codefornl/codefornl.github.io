@@ -53,24 +53,28 @@
         "nl": {
             "title": "Niet eerder hebben wij de mogelijkheid gehad zo actief aanwezig te zijn bij een ICT-project van de overheid.",
             "link": "/appathon/",
-            "link_title": "Lees het volledige statement"
+            "link_title": "Appathon",
+            "author": "Code For NL Community"
         },
         "en": {
             "title": "Never before did we have the opportunity to witness a government IT project this public.",
             "link": "/appathon",
-            "link_title": "Read the full statement"
+            "link_title": "Read the full statement",
+            "author": "Code For NL Community"
         }
     },
     "corona": {
         "nl": {
             "title": "Public Tech tegen Corona. </br > &nbsp;&nbsp; Doe mee!",
             "link": "/corona",
-            "link_title": "Lees meer"
+            "link_title": "Corona",
+            "author": "Ivonne"
         },
         "en": {
             "title": "Public Tech against Corona. </br > &nbsp;&nbsp; Join us!",
             "link": "/en/corona",
-            "link_title": "Read more"
+            "link_title": "Corona",
+            "author": "Ivonne"
         }
     },
     "community": {

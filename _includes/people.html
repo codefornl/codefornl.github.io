@@ -1,14 +1,12 @@
 <section  class="text-center">
-  <h2>{{ site.data.blocks.organisation[page.lang]}}</h2>
+  <p class="h2">{{ site.data.blocks.organisation[page.lang]}}</p>
   <div class="person-list">
   {% for mens in people %}
-  <div class="person">
-    <img class="picture" src="{{ mens.img }}">
-    <p>
-      {{ mens.name }}<br>
-      {{ mens.function[page.lang] }}<br>
-      <a href="mailto:{{ mens.email }}">{{ mens.email }}</a>
-    </p>
+  <div class="face">
+    <img class="face__photo" src="{{ mens.img }}" alt="{{mens.name}}"/>
+    <a class="face__name" href="mailto:{{ mens.email }}">{{ mens.name }}</a>
+    <p class="face__title">
+      {{ mens.function[page.lang] }}</p>
     <p class="social">
       {% if mens.linkedin %}<a class="linkedinBtn smGlobalBtn" href="{{ mens.linkedin }}"></a>{% endif %}
       {% if mens.twitter %}<a class="twitterBtn smGlobalBtn" href="{{ mens.twitter }}"></a>{% endif %}

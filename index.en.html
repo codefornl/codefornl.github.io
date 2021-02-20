@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Making Government Work In The Digital Age
 lang: en
 tagline: Making Goverment Work In The Digital Age.
@@ -12,4 +12,6 @@ permalink: /en/
   <p class="banner-text">Code for NL is governing partner of the international Code for All network.</p>
 </section>
 <a id="community"></a>
-{% include community.html %}
+{% assign action = site.data.blocks.community[page.lang] %}
+{% include stats.html %}
+{% include slack.html %}

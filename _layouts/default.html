@@ -3,32 +3,18 @@
 
 {% include head.html %}
 
-<body>
-  {% include nav.html %}
-  <header>
-    {% assign action = site.data.blocks.appathon[page.lang] %}
-    <div class="action-box action-appathon-statement-announcement">
-      <div class="action-box__action"><span>{{action.title}}</span></div>
-      <div class="action-box__link"><span><a href="{{action.link}}"class="action-box__link">{{action.link_title}}</a></span></div>
-    </div>
-  </header>
+<body class="template-primary-page">
 
-  {{ content }}
-  {% include heroins.html %}
+  <section class="hero">
+    {% include nav.html %}
+    <div class="hero__content"></div>
+  </section>
 
-  <div class="action-box">
-    {% assign corona = site.data.blocks.corona[page.lang] %}
-    <div class="action-box__action"><span>{{corona.title}}</span></div>
-    <div class="action-box__link"><span><a href="{{corona.link}}" class="action-box__link">{{ corona.link_title }}</a></span></div>
+  <div class="page-content">
+    <main role="main">
+      {{ content }}
+    </main>
   </div>
-
-  <a id="tfnt"></a>
-  {% include tfnt.html %}
-  <a id="meetups"></a>
-  {% include meetups.html %}
-  <a id="organisatie"></a>
-  {% assign people = site.data.mensen | where_exp: "mens", "mens.groups contains 'board'" %}
-  {% include people.html %}
   {% include footer.html %}
 </body>
 </html>

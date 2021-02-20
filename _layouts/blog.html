@@ -3,36 +3,37 @@
 
 {% include head.html %}
 
-<body>
-    {% include nav.html %}
-    <header>
-        <div class="blog-box">
-            <div class="blog-box__title">
-                "<span>{{page.title}}</span>"
-                <br>
-            </div>
-            
-            {% if page.author %}
-            <div class="reading-time" title="Leestijd">
-                <div>Gepubliceerd op: <span>{{page.date | date: "%Y-%m-%d"}}</span></div>
-                <div>Door: <span>{{page.author}}</span></div>
-                {% assign words = page.content | number_of_words %}
-                <div>
-                    {% if words < 360 %}
-                    Leestijd ongeveer 1 minuut
-                    {% else %}
-                    Leestijd ongeveer {{ words | divided_by: 180 }} minuten
-                    {% endif %}
+<body class="template-primary-page">
+
+    <section class="hero">
+        {% include nav.html %}
+        <div class="hero__content">
+            <div class="grid-box">
+                <div class="col-7">
+                    <h1 class="hero-title">{{page.title}}</h1>
+                    {% if page.author %}
+                    <div class="reading-time" title="Leestijd">
+                        <div>Gepubliceerd op: <span>{{page.date | date: "%Y-%m-%d"}}</span></div>
+                        <div>Door: <span>{{page.author}}</span></div>
+                        {% assign words = page.content | number_of_words %}
+                        <div>
+                            {% if words < 360 %} Leestijd ongeveer 1 minuut {% else %} Leestijd ongeveer {{ words |
+                                divided_by: 180 }} minuten {% endif %} </div>
+                        </div>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
-            {% endif %}
-        </div>
-    </header>
-    
-    <section class="blog">
-        {{ content }}
     </section>
-    {% include community.html %}
+    </div>
+    <div class="page-content">
+        <main role="main">
+            {{ content }}
+        </main>
+    </div>
+
+
     {% include footer.html %}
 </body>
+
 </html>

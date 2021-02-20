@@ -1,24 +1,75 @@
-<nav class="nav__site">
-  <div class="nav__logo">
-    <a href="../"><img src="https://codefor.nl/img/Logo-orange-01.png"></a>
-
-    <div class="nav__hamburger">
-      <span class="hamburger"></span>
+{% if home %}
+<header class="global-header" role="banner">
+{% else %}
+<header class="global-header reverse-global-header" role="banner">
+{% endif %}
+  <div class="container-fluid wrapper">
+    <div class="grid-box">
+      <div class="grid-item col-12">
+        <div class="align-left">
+          <div class="global-header-logo">
+            {% if home %}
+            <a href="/" style="display:flex;text-decoration: none;">
+              <div><img class="header-icon" src="/img/logo/logo_green.svg" alt="Code For NL Logo" /></div>
+              <div style="display:flex;flex-direction: column;padding-top: 24px;color:#71BF9D;font-size:18px;"><span style="font-style: italic;">Code</span><span style="font-size:14px">For</span><span style="font-weight: bold;">NL</span></div>
+            </a>
+            {% else %}
+            <a href="/" style="display:flex;text-decoration: none;">
+              <div><img class="header-icon" src="/img/logo/logo_white.svg" alt="Code For NL Logo" /></div>
+              <div style="display:flex;flex-direction: column;padding-top: 24px;color:#fff;font-size:18px;"><span style="font-style: italic;">Code</span><span style="font-size:14px">For</span><span style="font-weight: bold;">NL</span></div>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+        <div class="button-menu global-header-buttons align-right" role="navigation">
+          <div class="menu-item global-header-search searchbar">
+            <form action="/search">
+              <input type="text" class="searchbar-input" name="q" placeholder="Zoek..." aria-label="Search" value="">
+              <button class="searchbar-button"></button>
+            </form>
+          </div>
+          <a class="menu-item button button--sm button--primary" href="https://www.codeforamerica.org/donate"
+            title="Donate" onclick="ga('send', 'event', 'donate', 'click', 'Clicked on donate button.');">Doneer</a>
+          <a class="menu-item button button--sm js-menu-button js-toggle-mobile-navigation" href="#"
+            title="Open menu"><span class="fa fa-bars"></span> Menu</a>
+        </div>
+      </div>
     </div>
+    <div class="grid-box">
+      <div class="grid-item col-12 global-header-navigation mobile-navigation">
+        <div class="mobile-navigation-button">
+          <a class="button button--sm button--reverse js-toggle-mobile-navigation" href="#"><span
+              class="fa fa-times"></span> Close Menu</a>
+        </div>
+        <div class="bar-menu global-header-menu align-left" role="navigation">
+          {% if page.lang == "nl" %}
+          <a class="menu-item" href="{{ site.url }}/#tfnt/">Training</a>
+          <a class="menu-item" href="{{ site.url }}/#community">Community</a>
+          <a class="menu-item" href="{{ site.url }}/#meetups">Meetups</a>
+          <a class="menu-item" href="{{ site.url }}/#organisatie">Organisatie</a>
+          {% else %}
+          <a class="menu-item" href="{{ site.url }}/{{page.lang}}/#tfnt">Training</a>
+          <a class="menu-item" href="{{ site.url }}/{{page.lang}}/#meetups">Meetups</a>
+          {% endif %}
+          <!-- <a href="https://www.codeforamerica.org/about-us" class="menu-item ">About us</a>
+          <a href="https://www.codeforamerica.org/work" class="menu-item ">Our work</a>
+          <a href="https://www.codeforamerica.org/how" class="menu-item">How we do it</a>
+          <a href="https://www.codeforamerica.org/news" class="menu-item ">News and stories</a>
+          <a href="/events" class="menu-item ">Events</a>
+          <a href="https://www.codeforamerica.org/join-us" class="menu-item ">Join us</a> -->
 
+        </div>
+        <div class="bar-menu global-header-menu align-right" role="navigation">
+          <a href="https://www.twitter.com/codefornl" class="menu-item" target="_blank"><i class="fa fa-twitter"
+            aria-hidden="true"></i></a>
+          <!-- <a href="https://www.facebook.com/codeforamerica" class="menu-item" target="_blank"><i class="fa fa-facebook"
+              aria-hidden="true"></i></a> -->
+          <a href="https://github.com/codefornl" class="menu-item" target="_blank"><i
+            class="fa fa-github" aria-hidden="true"></i></a>
+          <a href="https://codefornl.slack.com" class="menu-item" target="_blank"><i
+            class="fa fa-slack" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
   </div>
-  <ul class="nav__menu">
-    {% if page.lang == "nl" %}
-    <li><a href="{{ site.url }}/#tfnt/">training</a></li>
-    <li><a href="{{ site.url }}/#community">community</a></li>
-    <li><a href="{{ site.url }}/#meetups">meetups</a></li>
-    <li><a href="{{ site.url }}/#organisatie">organisatie</a></li>
-
-    <!--li><a href="{{ site.url }}/#programs">{{ site.data.blocks.site[page.lang].programs}}</a></li-->
-    {% else %}
-    <li><a href="{{ site.url }}/{{page.lang}}/#tfnt">training</a></li>
-    <li><a href="{{ site.url }}/{{page.lang}}/#meetups">meetups</a></li>
-    <!--li><a href="{{ site.url }}/{{page.lang}}/#programs">{{ site.data.blocks.site[page.lang].programs}}</a></li-->
-    {% endif %}
-  </ul>
-</nav>
+</header>

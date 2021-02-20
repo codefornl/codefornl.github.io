@@ -1,15 +1,17 @@
-<section class="heroins">
-  {% for heroin in site.data.heroins[page.lang] %}
-  <div class="heroins__item">
-    <div class="heroins__hover">
-      <img class="img__normal" src="{{heroin.img}}">
-      <img class="img__alt" src="{{heroin.img-alt}}">
+<div class="slab slab--gray billboard">
+  <div class="grid-box">
+    {% for heroin in site.data.heroins[page.lang] %}
+    <div class="grid-item col-4">
+      <div class="card">
+        <div class="card__image" style="background-image: url('https://codefor.nl{{heroin.img}}');">
+          &nbsp;
+        </div>
+        <div class="card-content">
+          <p class="card__title">{{heroin.title}}</p>
+          <p>{{heroin.content}}</p>
+        </div>
+      </div>
     </div>
-    <div class="heroins__txt">
-      <h3>{{heroin.title}}</h3>
-      <p>{{heroin.content}}</p>
-    </div>
+    {% endfor %}
   </div>
-
-  {% endfor %}
-</section>
+</div>

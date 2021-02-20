@@ -1,9 +1,19 @@
 {% assign action = site.data.blocks.community[page.lang] %}
-<div class="top-60">
-    <h2>{{action.slack_tagline}}</h2>
-    <form method="post" action="https://praatmee.codefor.nl">
-      <input type="text" name="name" placeholder="{{action.name}}">
-      <input type="text" name="email" placeholder="{{action.email}}">
-      <button>{{action.signup}}</button>
-    </form>
+<div class="slab border-top-slab">
+  <div class="grid-box">
+    <div class="col-12 grid-item">
+
+      <form method="post" action="https://praatmee.codefor.nl">
+        <h3>{{action.slack_tagline}}</h3>
+        <label for="name">{{action.name}}</label>
+        <input class="input" type="text" name="name" placeholder="{{action.name}}">
+
+        <label for="email">{{action.email}}</label>
+        <input class="input" type="text" name="email" placeholder="{{action.email}}">
+
+        <button class="button button--primary">{{action.signup}}</button>
+
+      </form>
+    </div>
   </div>
+</div>

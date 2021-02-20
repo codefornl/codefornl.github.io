@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+
+{% include head.html %}
+
+<body class="template-home">
+  {% assign home = '' %}
+  <section class="home-hero" style="background-image: url('/img/hero-bg.png');">
+    {% include nav.html %}
+    {% include home.html %}
+  </section>
+
+  <div class="page-content">
+    <main role="main">
+      {{ content }}
+      {% include heroins.html %}
+
+
+      <div class="grid-box">
+        <div class="col-7">
+            <blockquote class="blockquote" cite="{{action.link}}">
+                {% assign corona = site.data.blocks.corona[page.lang] %}
+                <p>“{{corona.title}}”</p>
+                <footer class="blockquote__footer">
+                    {{corona.author}} in <cite title="{{corona.link_title}}"><a
+                            href="{{corona.link}}">{{corona.link_title}}</a></cite>
+                </footer>
+            </blockquote>
+        </div>
+    </div>
+
+
+  <a id="tfnt"></a>
+  {% include tfnt.html %}
+  <a id="meetups"></a>
+  {% include meetups.html %}
+  <a id="organisatie"></a>
+  {% assign people = site.data.mensen | where_exp: "mens", "mens.groups contains 'board'" %}
+  {% include people.html %}
+    </main>
+  </div>
+  
+  
+  {% include footer.html %}
+</body>
+</html>

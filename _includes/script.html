@@ -5,7 +5,7 @@
 <script>
     getFeed = function (elementClass) {
         console.log("getting Feed")
-        const RSS_URL = `/feed.xml`;
+        const RSS_URL = `http://www.rssmix.com/u/12755085/rss.xml`;
 
         fetch(RSS_URL)
             .then(response => response.text())

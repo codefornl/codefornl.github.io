@@ -1,0 +1,20 @@
+<div class="home-hero-content">
+    <div class="grid-box">
+        <div class="col-7">
+            <blockquote class="blockquote" cite="{{action.link}}">
+                {% assign action = site.data.blocks.appathon[page.lang] %}
+                <p>“{{action.title}}”</p>
+                <footer class="blockquote__footer">
+                    {{action.author}} in <cite title="{{action.link_title}}"><a
+                            href="{{action.link}}">{{action.link_title}}</a></cite>
+                </footer>
+            </blockquote>
+        </div>
+        <div class="col-5 grid-item">
+            <div class="home-hero-image">
+                <img src="/img/home-hero-gyr-phone.png"
+                    alt="Coronamelder">
+            </div>
+        </div>
+    </div>
+</div>
