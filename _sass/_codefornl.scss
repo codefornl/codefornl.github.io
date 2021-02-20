@@ -1,5 +1,17 @@
 @import 'main';
 
+.green-text {
+    color: $color-blue;
+}
+
+.orange-text {
+    color: $color-red;
+}
+
+.red-text {
+    color: $color-dark-red;
+}
+
 .container-fluid {
     margin-right: auto;
     margin-left: auto;

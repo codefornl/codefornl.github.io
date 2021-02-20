@@ -1,13 +1,13 @@
 <div class="slab border-top-slab">
-  <div class="grid-box">
-    {% for stat in site.data.community[page.lang] %}
-    <div class="grid-item col-4">
-      <div class="card card--action-card">
-        <aside>
-          <p class="h1">{{stat.value}}</p>{{stat.label}}
-        </aside>
-      </div>
+    <div class="grid-box">
+        {% for stat in site.data.community[page.lang] %}
+        <div class="grid-item col-4">
+            <div class="card card--action-card">
+                <aside>
+                    <p class="h1 {{stat.color}}">{{stat.value}}</p>{{stat.label}}
+                </aside>
+            </div>
+        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
-  </div>
 </div>
