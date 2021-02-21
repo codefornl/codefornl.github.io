@@ -8,11 +8,11 @@ title: Code for NL Community Projects
 description: "Vanuit het initiatief van communityleden van Code for NL ontstaan geregeld nieuwe projecten. Stichting Code for NL moedigt dit van harte aan en licht de projecten die onze waarden delen hier graag uit."
 image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/computer-vision-1920x802.jpg&width=800
 ---
-# Code for NL *Community Projects*
 
 Vanuit de Code for NL community ontstaan geregeld nieuwe projecten. Dit noemen wij Code for NL Community Projects. Stichting Code for NL moedigt dit van harte aan, en wil deze projecten graag helpen slagen. Daarvoor geldt het volgende.
 
-# Een Code for NL *Community Project* :
+{:.h3}
+Een Code for NL *Community Project* :
 
 - onderschrijft de missie en waarden van Code for NL (“Code for NL is een netwerk van developers en designers die samenwerken aan een open, eerlijke, en inclusieve digitale overheid en samenleving”), en past die toe in hoe het project wordt vormgegeven en in de dingen die worden maakt. Dat wil zeggen dat:
   - het project vanaf het startpunt open is opgezet, de communicatie via open kanalen verloopt, en open staat voor bijdragen uit de Code for NL community;
@@ -21,8 +21,9 @@ Vanuit de Code for NL community ontstaan geregeld nieuwe projecten. Dit noemen w
 - vindt plaats onder volledige verantwoordelijkheid van de initiatiefnemers, zowel voor het project als voor de dingen die worden gemaakt;
 - voert het logo van Code for NL in het project en in de dingen die worden gemaakt, met daarbij de tekst “Dit is een Code for NL *Community Project* [codefor.nl/communityprojects](https://www.codefor.nl/communityprojects)”.
 
-# Overzicht van Code for NL *Community Projects*
+{:.h3}
+Overzicht van Code for NL *Community Projects*
 
-[https://collecties.codefor.nl/cbase/corona-initiatieven-7f1b1d68b2b0a8c621f114e190c98869](https://collecties.codefor.nl/cbase/corona-initiatieven-7f1b1d68b2b0a8c621f114e190c98869)
+Het overzicht van onze community projects vind je op onze collecties website: [https://collecties.codefor.nl](https://collecties.codefor.nl/cbase/corona-initiatieven-7f1b1d68b2b0a8c621f114e190c98869)
 
 <!-- [https://collecties.codefor.nl/cbase/code-for-nl-community-projects-4ddffd44e7d9ec944c3bd11998919235](https://collecties.codefor.nl/cbase/code-for-nl-community-projects-4ddffd44e7d9ec944c3bd11998919235) -->
