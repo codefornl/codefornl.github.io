@@ -174,3 +174,30 @@
     padding-right: 20px;
     padding-top: 1.25rem;
 }
+
+.blog-grid {
+    display: grid;
+    overflow: hidden;
+    grid-auto-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    @include media($tablet-up) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @include media($midscreen-up) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    >.grid-item {
+        display: flex;
+
+        >a {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .reading-time {
+        font-size: small;
+        font-style: italic;
+    }
+}
