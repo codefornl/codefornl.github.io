@@ -32,8 +32,8 @@ image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/
                 <a href="https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/innovatie/innovatiebudget/">Innovatiebudget
                     BZK</a>.
             </p>
-            <a href="mailto:aimetimpact@codefor.nl" class="cta_button">Meer weten?<br>Neem contact op!</a>
-            <h1>Gemeenten gezocht!</h1>
+            <a href="mailto:aimetimpact@codefor.nl" class="button button--primary">Meer weten?<br>Neem contact op!</a>
+            <p class="h3">Gemeenten gezocht!</p>
             <p class="headline">
                 We hebben 3 open source oplossingen geselecteerd die de dienstverlening
                 aan de burgers verbeteren en versnellen. We willen samen onderzoeken hoe
@@ -50,7 +50,7 @@ image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/
             <div class="project">
                 <img
                     src="https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/computer-vision-1920x802.jpg&width=800">
-                <h1>Schone stad objectherkenning</h1>
+                <p class="h3">Schone stad objectherkenning</p>
                 <p>Afval slimmer ophalen door inzet AI objectherkenning. Amsterdam richt zich op vuilnis aan de kant van
                     de weg,
                     Utrecht op CROW metingen, en Rotterdam bekijkt bijplaatsingen.</p>
@@ -60,7 +60,7 @@ image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/
             <div class="project">
                 <img
                     src="https://img.codefor.nl/?url=https://www.cebglobal.com/talentdaily/files/2016/06/data-discrimination-800x533_c.jpg&width=800">
-                <h1>Eerlijke algoritmes</h1>
+                <p class="h3">Eerlijke algoritmes</p>
                 <p>Hoe zorg je voor algoritmes die niet discrimineren? En hoe zet je als gemeente algoritmes op een
                     verantwoorde, gecontroleerde wijze in?</p>
                 <p>Meedoen? Stuur een mail naar Gerhard via <a
@@ -69,22 +69,22 @@ image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/
             <div class="project">
                 <img
                     src="https://img.codefor.nl/?url=https://nos.nl/data/image/2016/10/26/328164/2048x1152.jpg&width=800">
-                <h1>Doorstroming sociale huur</h1>
+                <p class="h3">Doorstroming sociale huur</p>
                 <p>Doorstroming sociale huur bevorderen op basis van onderzoek verhuiskansen.</p>
                 <p>Meedoen? Stuur een mail naar Tamas via <a
                         href="verhuiskansen@codefor.nl">verhuiskansen@codefor.nl</a>.
                 </p>
             </div>
-            <h1>Deelnemen kan op drie niveaus</h1>
-            <h2 style="font-size: 1.8em; margin: 20px 0">#meedoen voor gemeenten</h2>
+            <p class="h3">Deelnemen kan op drie niveaus</p>
+            <p class="h5">#meedoen voor gemeenten</p>
             <p class="headline">
                 We zoeken gemeenten die actief deelnemen in (een van) de drie projecten.
                 Daaronder verstaan we dat er minimaal één data scientist of ontwikkelaar
                 namens de gemeente deelneemt, en dat deze actief deelneemt op de wekenlijkse
                 samenwerkdag.
             </p>
-            <a href="mailto:aimetimpact@codefor.nl" class="cta_button">#meedoen?<br>Neem contact op!</a>
-            <h2 style="font-size: 1.8em; margin: 20px 0">#meeleren voor data scientists</h2>
+            <a href="mailto:aimetimpact@codefor.nl" class="button button--primary">#meedoen?<br>Neem contact op!</a>
+            <p class="h3">#meeleren voor data scientists</p>
             <p class="headline">
                 Data scientists en andere techneuten binnen de overheid die mee willen leren
                 van de projecten, maar niet kunnen of willen #meedoen, zijn van harte welkom
@@ -93,7 +93,7 @@ image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/
             <div class="text-center">
                 <img style="width: 95%; max-width: 400px; margin: 50px 0 0" src="/img/ai-met-impact/meeleren.png" />
             </div>
-            <a href="#agenda" class="cta_button">#meeleren?<br>Bekijk de agenda!</a>
+            <a href="#agenda" class="button button--primary">#meeleren?<br>Bekijk de agenda!</a>
             <h2 style="font-size: 1.8em; margin: 20px 0">#meekijken voor overheden</h2>
             <p class="headline">
                 Voor bestuurders, beleidsmakers, en uitvoerende ambtenaren die meer willen
@@ -105,7 +105,7 @@ image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/
                 van deze voorbeelden worden toegelicht. Daarbij is veel ruimte voor dialoog
                 over de ethische afwegingen en de ervaringen.
             </p>
-            <a href="#agenda" class="cta_button">#meekijken?<br>Bekijk de agenda!</a>
+            <a href="#agenda" class="button button--primary">#meekijken?<br>Bekijk de agenda!</a>
         </div>
     </div>
 </div>
@@ -114,24 +114,24 @@ image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/
 <div class="slab">
     <div class="grid-box">
         <div class="col-12">
-            <h1>Agenda</h1>
+            <p class="h3">Agenda</p>
 
             <p>Onderstaande data worden komende week vastgesteld.</p>
             {% for item in site.data.ai-met-impact-calendar %}
             <div class="card {{item.cat}}" style="display: flex;">
                 <div class="card-label" style="padding: 2em;">
-                {% if item.cat == "meekijken" %}
+                    {% if item.cat == "meekijken" %}
 
-                <span class="fa fa-eye" aria-hidden="true"></span>
+                    <span class="fa fa-eye" aria-hidden="true"></span>
 
-                {% elsif item.cat == "meedoen" %}
-                <span class="fa fa-cut" aria-hidden="true"></span>
-                {% elsif item.cat == "meeleren" %}
-                <span class="fa fa-graduation-cap" aria-hidden="true"></span>
-                {% else %}
-                {{item.cat}}
-                {% endif %}
-                
+                    {% elsif item.cat == "meedoen" %}
+                    <span class="fa fa-cut" aria-hidden="true"></span>
+                    {% elsif item.cat == "meeleren" %}
+                    <span class="fa fa-graduation-cap" aria-hidden="true"></span>
+                    {% else %}
+                    {{item.cat}}
+                    {% endif %}
+
                 </div>
                 <div style="margin-top: 10px">
                     <span class="card-title">{{item.date}}: #{{item.cat}} {{item.title}}</span>

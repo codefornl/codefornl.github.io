@@ -34,7 +34,7 @@ image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/
                 <a href="https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/innovatie/innovatiebudget/">Innovatiebudget
                     BZK</a>.
             </p>
-            <a href="mailto:aimetimpact@codefor.nl" class="cta_button">Want to learn more?<br>Contact us!</a>
+            <a href="mailto:aimetimpact@codefor.nl" class="button button--primary">Want to learn more?<br>Contact us!</a>
             <p class="h3">Municipalities wanted!</p>
             <p class="headline">
                 We have selected 3 open source solutions that provide the service
@@ -52,7 +52,7 @@ image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/
             <div class="project">
                 <img
                     src="https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/computer-vision-1920x802.jpg&width=800">
-                <h1>Clean city object recognition</h1>
+                <p class="h3">Clean city object recognition</p>
                 <p>
                     Smarter collection of waste by using AI object recognition. Amsterdam focuses on rubbish on the side
                     of the road,
@@ -64,7 +64,7 @@ image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/
             <div class="project">
                 <img
                     src="https://img.codefor.nl/?url=https://www.cebglobal.com/talentdaily/files/2016/06/data-discrimination-800x533_c.jpg&width=800">
-                <h1> Fair algorithms </h1>
+                <p class="h3"> Fair algorithms </p>
                 <p> How do you ensure algorithms that do not discriminate? And how do you as a municipality put
                     algorithms on one
                     responsible, controlled manner? </p>
@@ -74,7 +74,7 @@ image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/
             <div class="project">
                 <img
                     src="https://img.codefor.nl/?url=https://nos.nl/data/image/2016/10/26/328164/2048x1152.jpg&width=800">
-                <h1> Flow through social rent </h1>
+                <p class="h3"> Flow through social rent </p>
                 <p> Promote the flow of social rent based on research into relocation opportunities. </p>
                 <p> Want to participate? Send an email to Tamas via<a
                         href="verhuiskansen@codefor.nl">verhuiskansen@codefor.nl</a>.
@@ -88,7 +88,7 @@ image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/
                 on behalf of the municipality, and that it actively participates on the weekly
                 cooperation day.
             </p>
-            <a href="mailto:aimetimpact@codefor.nl" class="cta_button">#join?<br>contact us!</a>
+            <a href="mailto:aimetimpact@codefor.nl" class="button button--primary">#join?<br>contact us!</a>
             <p class="h3">#learning for data scientists</p>
             <p class="headline">
                 Data scientists and other techies within the government who want to learn
@@ -98,8 +98,8 @@ image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/
             <div class="text-center">
                 <img style="width: 95%; max-width: 400px; margin: 50px 0 0" src="/img/ai-met-impact/meeleren.png" />
             </div>
-            <a href="#agenda" class="cta_button">#learn more?<br>check the schedule!</a>
-            <h2 style="font-size: 1.8em; margin: 20px 0">#watch for governments</h2>
+            <a href="#agenda" class="button button--primary">#learn more?<br>check the schedule!</a>
+            <p class="h2">#watch for governments</p>
             <p class="headline">
                 For administrators, policymakers, and executive officials who want to know more
                 about the possibilities of data science and AI, and how that is already the case
@@ -110,8 +110,7 @@ image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/
                 of these examples are explained. There is also much room for dialogue
                 about the ethical considerations and experiences.
             </p>
-            <a href="#agenda" class="cta_button">#watch?<br>Check the schedule!</a>
-            <a href="#agenda" class="cta_button">#meekijken?<br>Bekijk de agenda!</a>
+            <a href="#agenda" class="button button--primary">#watch?<br>Check the schedule!</a>
         </div>
     </div>
 </div>
@@ -121,11 +120,11 @@ image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/
 <div class="slab">
     <div class="grid-box">
         <div class="col-12">
-            <h1>Schedule</h1>
+            <p class="h3">Schedule</p>
 
             {% for item in site.data.ai-met-impact-calendar %}
             <div class="card {{item.cat}}" style="display: flex;">
-                <div class="card-label">
+                <div class="card-label" style="padding: 2em;">
                     {% if item.cat == "meekijken" %}
 
                     <span class="fa fa-eye" aria-hidden="true"></span>
