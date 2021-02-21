@@ -1,84 +1,88 @@
 {% if home %}
 <header class="global-header" role="banner">
-{% else %}
-<header class="global-header reverse-global-header" role="banner">
-{% endif %}
-  <div class="container-fluid wrapper">
-    <div class="grid-box">
-      <div class="grid-item col-12">
-        <div class="align-left">
-          <div class="global-header-logo">
-            {% if home %}
-            <a href="/" style="display:flex;text-decoration: none;">
-              <div><img class="header-icon" src="/img/logo/logo_green.svg" alt="Code For NL Logo" /></div>
-              <div style="display:flex;flex-direction: column;padding-top: 24px;color:#71BF9D;font-size:18px;"><span style="font-style: italic;">Code</span><span style="font-size:14px">For</span><span style="font-weight: bold;">NL</span></div>
-            </a>
-            {% else %}
-            <a href="/" style="display:flex;text-decoration: none;">
-              <div><img class="header-icon" src="/img/logo/logo_white.svg" alt="Code For NL Logo" /></div>
-              <div style="display:flex;flex-direction: column;padding-top: 24px;color:#fff;font-size:18px;"><span style="font-style: italic;">Code</span><span style="font-size:14px">For</span><span style="font-weight: bold;">NL</span></div>
-            </a>
-            {% endif %}
+  {% else %}
+  <header class="global-header reverse-global-header" role="banner">
+    {% endif %}
+    <div class="container-fluid wrapper">
+      <div class="grid-box">
+        <div class="grid-item col-12">
+          <div class="align-left">
+            <div class="global-header-logo">
+              {% if home %}
+              <a href="/" style="display:flex;text-decoration: none;">
+                <div><img class="header-icon" src="/img/logo/logo_green.svg" alt="Code For NL Logo" /></div>
+                <div style="display:flex;flex-direction: column;padding-top: 24px;color:#71BF9D;font-size:18px;"><span
+                    style="font-style: italic;">Code</span><span style="font-size:14px">For</span><span
+                    style="font-weight: bold;">NL</span></div>
+              </a>
+              {% else %}
+              <a href="/" style="display:flex;text-decoration: none;">
+                <div><img class="header-icon" src="/img/logo/logo_white.svg" alt="Code For NL Logo" /></div>
+                <div style="display:flex;flex-direction: column;padding-top: 24px;color:#fff;font-size:18px;"><span
+                    style="font-style: italic;">Code</span><span style="font-size:14px">For</span><span
+                    style="font-weight: bold;">NL</span></div>
+              </a>
+              {% endif %}
+            </div>
           </div>
-        </div>
-        <div class="button-menu global-header-buttons align-right" role="navigation">
-          <div class="global-header-search searchbar" style="float:left;">
-            <form action="/search">
-              <input type="text" class="searchbar-input" name="q" placeholder="Zoek..." aria-label="Search" value="">
-              <button class="searchbar-button"></button>
-            </form>
+          <div class="button-menu global-header-buttons align-right" role="navigation">
+            <div class="global-header-search searchbar" style="float:left;">
+              <form action="/search">
+                <input type="text" class="searchbar-input" name="q" placeholder="Zoek..." aria-label="Search" value="">
+                <button class="searchbar-button"></button>
+              </form>
+            </div>
+            <a class="menu-item button button--sm button--primary" href="/donate" title="Donate"
+              onclick="ga('send', 'event', 'donate', 'click', 'Clicked on donate button.');">Doneer</a>
+            <a class="menu-item button button--sm js-menu-button js-toggle-mobile-navigation" href="#"
+              title="Menu openen"><span class="fa fa-bars"></span> Menu</a>
           </div>
-          <a class="menu-item button button--sm button--primary" href="/donate"
-            title="Donate" onclick="ga('send', 'event', 'donate', 'click', 'Clicked on donate button.');">Doneer</a>
-          <a class="menu-item button button--sm js-menu-button js-toggle-mobile-navigation" href="#"
-            title="Menu openen"><span class="fa fa-bars"></span> Menu</a>
         </div>
       </div>
-    </div>
-    <div class="grid-box">
-      <div class="grid-item col-12 global-header-navigation mobile-navigation">
-        <div class="mobile-navigation-button">
-          <a class="button button--sm button--reverse js-toggle-mobile-navigation" href="#"><span
-              class="fa fa-times"></span> Menu sluiten</a>
-        </div>
-        <div class="bar-menu global-header-menu align-left" role="navigation">
-          {% if page.lang == "nl" %}
-          <a class="menu-item" href="{{ site.url }}/#tfnt/">Training</a>
-          <a class="menu-item" href="{{ site.url }}/#community">Community</a>
-          <a class="menu-item" href="{{ site.url }}/#meetups">Meetups</a>
-          <a class="menu-item" href="{{ site.url }}/#organisatie">Organisatie</a>
-          {% else %}
-          <a class="menu-item" href="{{ site.url }}/{{page.lang}}/#tfnt">Training</a>
-          <a class="menu-item" href="{{ site.url }}/{{page.lang}}/#meetups">Meetups</a>
-          {% endif %}
-          <!-- <a href="https://www.codeforamerica.org/about-us" class="menu-item ">About us</a>
+      <div class="grid-box">
+        <div class="grid-item col-12 global-header-navigation mobile-navigation">
+          <div class="mobile-navigation-button">
+            <a class="button button--sm button--reverse js-toggle-mobile-navigation" href="#"><span
+                class="fa fa-times"></span> Menu sluiten</a>
+          </div>
+          <div class="bar-menu global-header-menu align-left" role="navigation">
+            {% if page.lang == "nl" %}
+            <a class="menu-item" href="{{ site.url }}/#tfnt/">Training</a>
+            <a class="menu-item" href="{{ site.url }}/#community">Community</a>
+            <a class="menu-item" href="{{ site.url }}/#meetups">Meetups</a>
+            <a class="menu-item" href="{{ site.url }}/#organisatie">Organisatie</a>
+            {% else %}
+            <a class="menu-item" href="{{ site.url }}/{{page.lang}}/#tfnt">Training</a>
+            <a class="menu-item" href="{{ site.url }}/{{page.lang}}/#meetups">Meetups</a>
+            {% endif %}
+            <!-- <a href="https://www.codeforamerica.org/about-us" class="menu-item ">About us</a>
           <a href="https://www.codeforamerica.org/work" class="menu-item ">Our work</a>
           <a href="https://www.codeforamerica.org/how" class="menu-item">How we do it</a>
           <a href="https://www.codeforamerica.org/news" class="menu-item ">News and stories</a>
           <a href="/events" class="menu-item ">Events</a>
           <a href="https://www.codeforamerica.org/join-us" class="menu-item ">Join us</a> -->
 
-        </div>
-        <div class="bar-menu global-header-menu align-right" role="navigation">
-          <a href="https://www.twitter.com/codefornl" class="menu-item" target="_blank"><i class="fa fa-twitter"
-            aria-hidden="true"></i></a>
-          <!-- <a href="https://www.facebook.com/codeforamerica" class="menu-item" target="_blank"><i class="fa fa-facebook"
+          </div>
+          <div class="bar-menu global-header-menu align-right" role="navigation">
+            <a href="https://www.twitter.com/codefornl" class="menu-item" target="_blank"><i class="fa fa-twitter"
+                aria-hidden="true"></i></a>
+            <!-- <a href="https://www.facebook.com/codeforamerica" class="menu-item" target="_blank"><i class="fa fa-facebook"
               aria-hidden="true"></i></a> -->
-          <a href="https://github.com/codefornl" class="menu-item" target="_blank"><i
-            class="fa fa-github" aria-hidden="true"></i></a>
-          <a href="https://codefornl.slack.com" class="menu-item" target="_blank"><i
-            class="fa fa-slack" aria-hidden="true"></i></a>
-          {% if page.lang == "nl" %}
-          <span class="menu-item" style="text-transform:uppercase;color:#ccc;">nl</span>
-          <span class="menu-item">|</span>
-          <a href="/en" class="menu-item" style="text-transform:uppercase;">en</a>
-          {% elsif page.lang == "en" %}
-          <a href="/" class="menu-item" style="text-transform:uppercase;">nl</a>
-          <span class="menu-item">|</span>
-          <span class="menu-item" style="text-transform:uppercase;color:#ccc;">en</span>
-          {% endif %}
+            <a href="https://github.com/codefornl" class="menu-item" target="_blank"><i class="fa fa-github"
+                aria-hidden="true"></i></a>
+            <a href="https://codefornl.slack.com" class="menu-item" target="_blank"><i class="fa fa-slack"
+                aria-hidden="true"></i></a>
+            {% if page.lang == "nl" %}
+            <span class="menu-item" style="text-transform:uppercase;color:#ccc;">nl</span>
+            <span class="menu-item">|</span>
+            <a href="/en" class="menu-item" style="text-transform:uppercase;">en</a>
+            {% elsif page.lang == "en" %}
+            <a href="/" class="menu-item" style="text-transform:uppercase;">nl</a>
+            <span class="menu-item">|</span>
+            <span class="menu-item" style="text-transform:uppercase;color:#ccc;">en</span>
+            {% endif %}
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</header>
+  </header>
