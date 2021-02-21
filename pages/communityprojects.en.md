@@ -8,11 +8,11 @@ title: Code for NL Community Projects
 description: "New projects regularly emerge from the initiative of Community members of Code for NL. The Code for NL Foundation warmly encourages this and would like to highlight the projects that share our values."
 image: https://img.codefor.nl/?url=https://tada.city/wp-content/uploads/2019/05/computer-vision-1920x802.jpg&width=800
 ---
-# Code for NL *Community Projects*
 
 New projects regularly arise from the Code for NL community. We call this Code for NL Community Projects. The Code for NL Foundation strongly encourages this and would like to help these projects succeed. The following applies to this.
 
-# A Code for NL *Community Project*:
+{:.h3}
+A Code for NL *Community Project*:
 
 - endorses the mission and values ​​of Code for NL (“Code for NL is a network of developers and designers who work together on an open, fair and inclusive digital government and society”), and applies it in how the project is designed and in the things that are being made. That is to say that:
   - the project is open from the start, communication is via open channels and open to contributions from the Code for NL community;
@@ -21,8 +21,9 @@ New projects regularly arise from the Code for NL community. We call this Code f
 - takes place under the full responsibility of the promoters, both for the project and for the things that are made;
 - implements the Code for NL logo in the project and in the things that are created, with the text “This is a Code for NL *Community Project* [codefor.nl/communityprojects](https://www.codefor.nl/ communityprojects)”.
 
-# Overview of Code for NL *Community Projects*
+{:.h3}
+Overview of Code for NL *Community Projects*
 
-[https://collecties.codefor.nl/cbase/corona-initiatieven-7f1b1d68b2b0a8c621f114e190c98869](https://collecties.codefor.nl/cbase/corona-initiatieven-7f1b1d68b2b0a8c621f114e190c98869)
+[https://collecties.codefor.nl](https://collecties.codefor.nl/cbase/corona-initiatieven-7f1b1d68b2b0a8c621f114e190c98869)
 
 <!-- [https://collecties.codefor.nl/cbase/code-for-nl-community-projects-4ddffd44e7d9ec944c3bd11998919235](https://collecties.codefor.nl/cbase/code-for-nl-community-projects-4ddffd44e3d9119899) -->
