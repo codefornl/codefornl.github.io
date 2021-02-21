@@ -1,51 +1,57 @@
 <footer class="global-footer" role="contentinfo">
   <div class="grid-box">
-    <div class="grid-item col-3">
-      <div class="address">
-        Stichting <b>Code for NL</b><br>
-        {{{{site.data.blocks.commerce[page.lang]}} <a target="_blank"
-          href="https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=69749477">69749477</a>
+    <div class="grid-item col-8 shift-2">
+      <div class="global-footer-nav grid-box">
+        <div class="menu grid-item col-3">
+          <div class="menu-item">
+            <div class="address">
+              Stichting <b>Code for NL</b><br>
+              {{{{site.data.blocks.commerce[page.lang]}} <a target="_blank"
+                href="https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=69749477">69749477</a>
+            </div>
+          </div>
+        </div>
+        <div class="menu grid-item col-3">
+          {% if page.lang == "nl" %}
+          <a href="{{ site.url }}/blog" class="menu-item">{{site.data.blocks.blog[page.lang]}}</a>
+          <a href="{{ site.url }}/communityprojects"
+            class="menu-item">{{site.data.blocks.communityprojects[page.lang]}}</a>
+          <a href="{{ site.url }}/ai-met-impact" class="menu-item">{{site.data.blocks.aiwithimpact[page.lang]}}</a>
+          <!--<a href="{{ site.url }}/fellowships">{{site.data.blocks.fellowships[page.lang]}}</a><br>-->
+          <a href="{{ site.url }}/vrijwilligers" class="menu-item">{{site.data.blocks.volunteers[page.lang]}}</a>
+          {% else %}
+          <a href="{{ site.url }}/blog" class="menu-item">{{site.data.blocks.blog[page.lang]}}</a>
+          <a href="{{ site.url }}/{{page.lang}}/communityprojects"
+            class="menu-item">{{site.data.blocks.communityprojects[page.lang]}}</a>
+          <a href="{{ site.url }}/{{page.lang}}/ai-met-impact"
+            class="menu-item">{{site.data.blocks.aiwithimpact[page.lang]}}</a>
+          <!--<a href="{{ site.url }}/{{page.lang}}/fellowships">{{site.data.blocks.fellowships[page.lang]}}</a><br>-->
+          <a href="{{ site.url }}/{{page.lang}}/vrijwilligers"
+            class="menu-item">{{site.data.blocks.volunteers[page.lang]}}</a>
+          {% endif %}
+          <a href="https://collecties.codefor.nl" class="menu-item">{{site.data.blocks.collections[page.lang]}}</a>
+        </div>
+        <div class="menu grid-item col-3">
+          {% for item in site.data.founders[page.lang] %}
+          <a href="{{item.link}}" class="menu-item">
+            <p><b>{{item.title}}</b></p>
+            <img  src="{{item.img}}" alt="{{item.title}}">
+          </a>
+
+          {% endfor %}
+        </div>
+        <div class="menu grid-item col-3 end-row">
+          <a class="menu-item" href="https://twitter.com/codefornl"><span
+              class="fa fa-twitter"></span> Twitter</a>
+          <a class="menu-item" href="https://github.com/codefornl"><span
+              class="fa fa-github"></span> Github</a>
+          <a class="menu-item" href="https://codefornl.slack.com"><span
+              class="fa fa-slack"></span> Slack</a>
+        </div>
+        <div class="col-12 grid-item end-row">
+            <p class="text--center">© 2020 Code For NL</p>
+        </div>
       </div>
-      <p>© 2020 Code For NL</p>
-    </div>
-
-    <div class="grid-item col-3">
-      {% if page.lang == "nl" %}
-      <a href="{{ site.url }}/blog" class="menu-item">{{site.data.blocks.blog[page.lang]}}</a><br>
-      <a href="{{ site.url }}/communityprojects"
-        class="menu-item">{{site.data.blocks.communityprojects[page.lang]}}</a><br>
-      <a href="{{ site.url }}/ai-met-impact" class="menu-item">{{site.data.blocks.aiwithimpact[page.lang]}}</a><br>
-      <!--<a href="{{ site.url }}/fellowships">{{site.data.blocks.fellowships[page.lang]}}</a><br>-->
-      <a href="{{ site.url }}/vrijwilligers" class="menu-item">{{site.data.blocks.volunteers[page.lang]}}</a><br>
-      {% else %}
-      <a href="{{ site.url }}/blog" class="menu-item">{{site.data.blocks.blog[page.lang]}}</a><br>
-      <a href="{{ site.url }}/{{page.lang}}/communityprojects"
-        class="menu-item">{{site.data.blocks.communityprojects[page.lang]}}</a><br>
-      <a href="{{ site.url }}/{{page.lang}}/ai-met-impact"
-        class="menu-item">{{site.data.blocks.aiwithimpact[page.lang]}}</a><br>
-      <!--<a href="{{ site.url }}/{{page.lang}}/fellowships">{{site.data.blocks.fellowships[page.lang]}}</a><br>-->
-      <a href="{{ site.url }}/{{page.lang}}/vrijwilligers"
-        class="menu-item">{{site.data.blocks.volunteers[page.lang]}}</a><br>
-      {% endif %}
-      <a href="https://collecties.codefor.nl" class="menu-item">{{site.data.blocks.collections[page.lang]}}</a><br>
-    </div>
-    <div class="grid-item col-3">
-      {% for item in site.data.founders[page.lang] %}
-
-      <a href="{{item.link}}" class="menu-item">
-        <p><b>{{item.title}}</b></p>
-        <img class="global-footer-mayor-image" src="{{item.img}}" alt="{{item.title}}">
-      </a>
-
-      {% endfor %}
-    </div>
-    <div class="grid-item col-3 menu" style="display:flex; flex-direction: row;">
-      <a class="menu-item" style="padding: 1em;" href="https://twitter.com/codefornl"><span
-          class="fa fa-twitter"></span></a>
-      <a class="menu-item" style="padding: 1em;" href="https://github.com/codefornl"><span
-          class="fa fa-github"></span></a>
-      <a class="menu-item" style="padding: 1em;" href="https://codefornl.slack.com"><span
-          class="fa fa-slack"></span></a>
     </div>
   </div>
 </footer>
