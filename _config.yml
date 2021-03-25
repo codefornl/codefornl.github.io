@@ -16,3 +16,4 @@ defaults:
       path: "img"
     values:
       image: true
+include: [".well-known"]
