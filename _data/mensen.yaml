@@ -1,8 +1,5 @@
 - name: Milo van der Linden
-  organisation: bestuur
-  function:
-    nl: voorzitter
-    en: chair
+  organisation: 
   email: milo@codefor.nl
   img: /img/milo.jpg
   github: https://github.com/milovanderlinden
@@ -36,11 +33,7 @@
   ibestuur_sort: 2
 
 - name: Edo Plantinga
-  organisation: bestuur
-  function:
-    nl: bestuurslid
-    en: board member
-  email: edo@codefor.nl
+  organisation:
   img: /img/bestuur/edo.png
   linkedin: https://www.linkedin.com/in/edoplantinga/
   twitter: https://twitter.com/edoplantinga
