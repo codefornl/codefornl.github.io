@@ -4,15 +4,15 @@
     nl: voorzitter
     en: chair
   email: milo@codefor.nl
-  img: /img/bestuur/milo.png
+  img: /img/milo.jpg
   github: https://github.com/milovanderlinden
-  groups: [board]
+  groups: []
 
 - name: Ivonne Jansen - Dings
   organisation: bestuur
   function:
-    nl: secretaris
-    en: secretary
+    nl: voorzitter en penningmeester
+    en: chair and treasurer
   email: ivonne@codefor.nl
   img: /img/bestuur/ivonne.png
   linkedin: https://www.linkedin.com/in/ivonnejansendings/
@@ -23,8 +23,8 @@
 - name: Johan Groenen
   organisation: bestuur
   function:
-    nl: penningmeester
-    en: treasurer
+    nl: secretaris
+    en: secretary
   email: johan@codefor.nl
   img: /img/bestuur/johan.png
   linkedin: https://www.linkedin.com/in/jgroenen/
@@ -56,6 +56,17 @@
   img: /img/bestuur/sander.png
   linkedin: https://www.linkedin.com/in/sandervanderwaal/
   twitter: https://twitter.com/sandervdwaal
+  groups: [board]
+  
+- name: Frank Verschoor
+  organisation: bestuur
+  function:
+    nl: bestuurslid
+    en: board member
+  email: frank@codefor.nl
+  img: /img/bestuur/frank.png
+  linkedin: https://www.linkedin.com/in/frankverschoor/
+  twitter: https://twitter.com/DutchSpring
   groups: [board]
 
 - name: Safia Akkus
