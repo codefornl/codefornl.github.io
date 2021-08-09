@@ -57,6 +57,17 @@
   linkedin: https://www.linkedin.com/in/sandervanderwaal/
   twitter: https://twitter.com/sandervdwaal
   groups: [board]
+  
+- name: Frank Verschoor
+  organisation: bestuur
+  function:
+    nl: bestuurslid
+    en: board member
+  email: frank@codefor.nl
+  img: /img/bestuur/frank.png
+  linkedin: https://www.linkedin.com/in/frankverschoor/
+  twitter: https://twitter.com/DutchSpring
+  groups: [board]
 
 - name: Safia Akkus
   organisation: programma
