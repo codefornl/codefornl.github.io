@@ -6,7 +6,7 @@
 <body>
   {% include nav.html %}
   <header>
-    {% assign action = site.data.blocks.appathon[page.lang] %}
+    {% assign action = site.data.blocks.building-together[page.lang] %}
     <div class="action-box action-appathon-statement-announcement">
       <div class="action-box__action"><span>{{action.title}}</span></div>
       <div class="action-box__link"><span><a href="{{action.link}}"class="action-box__link">{{action.link_title}}</a></span></div>
@@ -14,21 +14,33 @@
   </header>
 
   {{ content }}
+
+  {% comment %}
+  {% include timeline.html %}
+  {% endcomment %}
+
   {% include heroins.html %}
 
+  {% comment %}
   <div class="action-box">
     {% assign corona = site.data.blocks.corona[page.lang] %}
     <div class="action-box__action"><span>{{corona.title}}</span></div>
     <div class="action-box__link"><span><a href="{{corona.link}}" class="action-box__link">{{ corona.link_title }}</a></span></div>
   </div>
+  {% endcomment %}
 
+  {% comment %}
   <a id="tfnt"></a>
   {% include tfnt.html %}
+  {% endcomment %}
+
   <a id="meetups"></a>
   {% include meetups.html %}
+
   <a id="organisatie"></a>
   {% assign people = site.data.mensen | where_exp: "mens", "mens.groups contains 'board'" %}
   {% include people.html %}
+
   {% include footer.html %}
 </body>
 </html>

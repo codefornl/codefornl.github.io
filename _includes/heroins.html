@@ -1,15 +1,14 @@
-<section class="heroins">
+<section class="text-center">
+  <h2>{{ site.data.heroins.title[page.lang] }}</h2>
+  <div class="heroins">
   {% for heroin in site.data.heroins[page.lang] %}
   <div class="heroins__item">
     <div class="heroins__hover">
       <img class="img__normal" src="{{heroin.img}}">
       <img class="img__alt" src="{{heroin.img-alt}}">
     </div>
-    <div class="heroins__txt">
-      <h3>{{heroin.title}}</h3>
-      <p>{{heroin.content}}</p>
-    </div>
   </div>
 
   {% endfor %}
+  </div>
 </section>

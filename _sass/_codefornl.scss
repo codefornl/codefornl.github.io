@@ -418,8 +418,6 @@ button:hover {
 
 .heroins {
     display: flex;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 .heroins__item {
@@ -439,18 +437,27 @@ button:hover {
     .img__alt { display: block }
 }
 
-.heroins__txt {
-    margin-left: 30px;
-    margin-right: 30px;
-
+.principles-section {
+    background: $color2;
 }
 
-.heroins__txt h3 {
+.principles {
+    // display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.principle {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.principle h3 {
     margin-top: 24px;
-    font-family: $header-font;
-    color: $color4;
+    font-family: $font;
+    color: $color5;
     font-size: $font-size-medium;
-    text-transform: $header-case;
+    // text-transform: $header-case;
     line-height: 36px;
 }
 

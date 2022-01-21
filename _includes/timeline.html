@@ -1,0 +1,35 @@
+<style>
+  .timeline__item {
+    list-style-type: none;
+    color: black;
+  }
+  .timeline__item h3 {
+    color: black;
+    font-weight: 100;
+  }
+  .timeline__item:before {
+    content: "•";
+    font-size: 80px;
+    vertical-align: middle;
+    line-height: 20px;
+    color: black;
+    margin-left: -10px;
+  }
+  .timeline__txt {
+  }
+</style>
+<section class="timeline">
+  <h2>Tijdslijn</h2>
+
+  <ul>
+  {% for win in site.data.wins[page.lang] %}
+  <li class="timeline__item">
+    <div class="timeline__txt" style="border-left: 8px solid black; padding-left: 10px">
+      <h3>{{win.title}}</h3>
+      <p>{{win.content}}</p>
+    </div>
+  </li>
+
+  {% endfor %}
+  </ul>
+</section>

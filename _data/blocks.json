@@ -61,6 +61,18 @@
             "link_title": "Read the full statement"
         }
     },
+    "building-together": {
+        "nl": {
+            "title": "Samenwerken aan een open, eerlijke en inclusieve digitale overheid.",
+            "link": "",
+            "link_title": ""
+        },
+        "en": {
+            "title": "Building an open, fair and inclusive digital government together.",
+            "link": "",
+            "link_title": ""
+        }
+    },
     "corona": {
         "nl": {
             "title": "Public Tech tegen Corona. </br > &nbsp;&nbsp; Doe mee!",
