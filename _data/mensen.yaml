@@ -8,8 +8,8 @@
 - name: Ivonne Jansen - Dings
   organisation: bestuur
   function:
-    nl: voorzitter en penningmeester
-    en: chair and treasurer
+    nl: algemeen bestuurslid
+    en: board member
   email: ivonne@codefor.nl
   img: /img/bestuur/ivonne.png
   linkedin: https://www.linkedin.com/in/ivonnejansendings/
@@ -20,8 +20,8 @@
 - name: Johan Groenen
   organisation: bestuur
   function:
-    nl: secretaris
-    en: secretary
+    nl: voorzitter
+    en: chair
   email: johan@codefor.nl
   img: /img/bestuur/johan.png
   linkedin: https://www.linkedin.com/in/jgroenen/
@@ -43,8 +43,8 @@
 - name: Sander van der Waal
   organisation: bestuur
   function:
-    nl: bestuurslid
-    en: board member
+    nl: penningmeester
+    en: treasurer
   email: sander@codefor.nl
   img: /img/bestuur/sander.png
   linkedin: https://www.linkedin.com/in/sandervanderwaal/
@@ -54,8 +54,8 @@
 - name: Frank Verschoor
   organisation: bestuur
   function:
-    nl: bestuurslid
-    en: board member
+    nl: secretaris
+    en: secretary
   email: frank@codefor.nl
   img: /img/bestuur/frank.png
   linkedin: https://www.linkedin.com/in/frankverschoor/
