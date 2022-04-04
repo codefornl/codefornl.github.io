@@ -1,0 +1,20 @@
+.sponsor-list {
+}
+
+.sponsor {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 1em;
+    .picture {
+        width: 50%;
+        height: 50%;
+        margin: 25%;
+    }
+}
+
+@media #{$media-s} {
+}
+
+@media #{$media-xs} {
+}

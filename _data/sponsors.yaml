@@ -1,0 +1,22 @@
+- organisation: Slack
+  url: https://slack.com
+  img: https://pbs.twimg.com/profile_images/1461144163789983748/N5iAWd2d_400x400.jpg
+  description: Slack chat omgeving praatmee.codefor.nl
+  background: "#4A154B"
+
+- organisation: Freedom Internet
+  url: https://freedom.nl
+  img: https://freedom.nl/theme/freedom/dist/images/logo-freedom-internet_diap.svg?be644893f7
+  description: Matrix chat omgeving chat.codefor.nl
+  background: black
+
+- organisation: Mibo
+  url: https://getmibo.com/
+  img: https://getmibo.com/img/mibo-logo.7d9278bc.svg
+  description: Online 3d meetup omgeving
+  background: "#FFEA00"
+
+- organisation: Tiltshift
+  url: https://www.tiltshift.nl
+  img: https://www.tiltshift.nl/assets/img/logo_cropped.svg
+  description: servers, domeinen, meetup.com

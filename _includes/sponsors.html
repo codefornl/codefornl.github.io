@@ -1,17 +1,13 @@
-<!--
 <section class="text-center">
 
   <h1>Sponsors</h1>
 
-  - Tiltshift
-  - Freedom Internet
-  - Getmibo
-
-  <p>
+  <div class="sponsor-list">
     {% for sponsor in site.data.sponsors %}
-    <a class="partner-img-wrapper" href="{{ sponsor.url }}"><img class="partner-img" src="{{ sponsor.img }}"></a>
+      <a class="sponsor" style="background: {{ sponsor.background }}" href="{{ sponsor.url }}">
+        <img class="picture" src="{{ sponsor.img }}" style="background: {{ sponsor.background }}">
+      </a>
     {% endfor %}
-  </p>
+  </div>
 
 </section>
--->
