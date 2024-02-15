@@ -64,13 +64,13 @@
     "building-together": {
         "nl": {
             "title": "Samenwerken aan een open, eerlijke en inclusieve digitale overheid.",
-            "link": "https://www.aligningpublictech.nl",
-            "link_title": "Kom naar de Unconference op 30 maart!"
+            "link": "https://praatmee.codefor.nl",
+            "link_title": "Praat mee op Slack!"
         },
         "en": {
             "title": "Building an open, fair and inclusive digital government together.",
-            "link": "https://www.aligningpublictech.nl",
-            "link_title": "Join our Unconference 30th of March 2023!"
+            "link": "https://praatmee.codefor.nl",
+            "link_title": "Join the discussion on Slack!"
         }
     },
     "corona": {
