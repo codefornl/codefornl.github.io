@@ -17,6 +17,16 @@
   groups: [board,ai-met-impact]
   ai_sort: 5
 
+- name: Anna Alberts
+  organisation: bestuur
+  function:
+    nl: algemeen bestuurslid
+    en: board member
+  email: anna@codefor.nl
+  img: /img/bestuur/anna.png
+  linkedin: https://www.linkedin.com/in/annaalberts/
+  groups: [board]
+
 - name: Johan Groenen
   organisation: bestuur
   function:
