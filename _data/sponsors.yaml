@@ -1,6 +1,6 @@
 - organisation: Slack
   url: https://slack.com
-  img: https://pbs.twimg.com/profile_images/1461144163789983748/N5iAWd2d_400x400.jpg
+  img: /img/slack-logo.svg
   description: Slack chat omgeving praatmee.codefor.nl
   background: "#4A154B"
 
