@@ -5,7 +5,7 @@ een open en duurzame manier te ontwikkelen en beheren. Met de Nederlandse vertal
 opensourcewerken voor nog meer organisaties in Nederland toegankelijk."
 tagline: De tijd is rijp voor een open source overheid.
 lang: nl
-date: 2024-12-12
+date: 2024-12-13
 author: Johan Groenen
 layout: blog
 cover: launch-standaard-voor-publieke-code.jpg
