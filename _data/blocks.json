@@ -65,6 +65,18 @@
             "link_title": "Read the full statement"
         }
     },
+    "standaard-voor-publieke-code-launched": {
+        "nl": {
+            "title": "Nu beschikbaar: Nederlandse vertaling van de Standard for Public Code",
+            "link": "/2024/12/12/standaard-voor-publieke-code-nu-beschikbaar.html",
+            "link_title": "Bekijk het persbericht!"
+        },
+        "en": {
+            "title": "Now available: Dutch translation of the Standard for Public Code",
+            "link": "/2024/12/12/standaard-voor-publieke-code-nu-beschikbaar.html",
+            "link_title": "Read the full statement!"
+        }
+    },
     "building-together": {
         "nl": {
             "title": "Samenwerken aan een open, eerlijke en inclusieve digitale overheid.",
