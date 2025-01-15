@@ -10,11 +10,11 @@
   description: Matrix chat omgeving chat.codefor.nl
   background: black
 
-- organisation: Mibo
-  url: https://getmibo.com/
-  img: https://getmibo.com/img/mibo-logo.7d9278bc.svg
-  description: Online 3d meetup omgeving
-  background: "#FFEA00"
+# - organisation: Mibo
+#   url: https://getmibo.com/
+#   img: https://getmibo.com/img/mibo-logo.7d9278bc.svg
+#   description: Online 3d meetup omgeving
+#   background: "#FFEA00"
 
 - organisation: Tiltshift
   url: https://www.tiltshift.nl
