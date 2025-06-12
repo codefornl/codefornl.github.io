@@ -2,13 +2,13 @@
   url: https://slack.com
   img: /img/slack-logo.svg
   description: Slack chat omgeving praatmee.codefor.nl
-  background: "#4A154B"
+  background: "white"
 
-- organisation: Freedom Internet
-  url: https://freedom.nl
-  img: https://freedom.nl/theme/freedom/dist/images/logo-freedom-internet_diap.svg?be644893f7
+- organisation: Procolix
+  url: https://www.procolix.eu
+  img: https://www.procolix.eu/nl/img/logo_procolix.svg
   description: Matrix chat omgeving chat.codefor.nl
-  background: black
+  background: white
 
 # - organisation: Mibo
 #   url: https://getmibo.com/
