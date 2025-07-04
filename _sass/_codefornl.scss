@@ -183,13 +183,14 @@ a.cta_button_inline {
     vertical-align: bottom;
 }
 
-.twitterBtn {
-    background: #00ABE3; /* Twitter color */
+/* mastodon button class */
+.mastodonBtn {
+    background: #6364FF; /* Mastodon color */
 }
 
-.twitterBtn:before {
+.mastodonBtn:before {
     font-family: "FontAwesome";
-    content: "\f099"; /* add twitter icon */
+    content: "\f4f6"; /* add mastodon icon */
 }
 
 /* linkedin button class*/

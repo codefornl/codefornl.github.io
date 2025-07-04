@@ -13,7 +13,6 @@
   email: ivonne@codefor.nl
   img: /img/bestuur/ivonne.png
   linkedin: https://www.linkedin.com/in/ivonnejansendings/
-  twitter: https://twitter.com/ivonnedings
   groups: [board,ai-met-impact]
   ai_sort: 5
 
@@ -31,7 +30,7 @@
   email: johan@codefor.nl
   img: /img/bestuur/johan.png
   linkedin: https://www.linkedin.com/in/jgroenen/
-  twitter: https://twitter.com/jpagroenen
+  mastodon: https://mastodon.social/@jpagroenen
   github: https://github.com/jgroenen
   website: https://www.jgroenen.nl
   groups: [board,ibestuur,ai-met-impact]
@@ -42,7 +41,6 @@
   organisation:
   img: /img/bestuur/edo.png
   linkedin: https://www.linkedin.com/in/edoplantinga/
-  twitter: https://twitter.com/edoplantinga
   groups: [ibestuur,nl-design-system]
   ibestuur_sort: 1
 
@@ -54,14 +52,12 @@
   email: sander@codefor.nl
   img: /img/bestuur/sander.png
   linkedin: https://www.linkedin.com/in/sandervanderwaal/
-  twitter: https://twitter.com/sandervdwaal
   groups: [board]
   
 - name: Frank Verschoor
   organisation: 
   img: /img/bestuur/frank.png
   linkedin: https://www.linkedin.com/in/frankverschoor/
-  twitter: https://twitter.com/DutchSpring
   groups: []
 
 - name: Safia Akkus
@@ -84,7 +80,6 @@
   email: t.erkelens@amsterdam.nl
   img: /img/tamas.jpg
   linkedin: https://www.linkedin.com/in/tamas-erkelens-4a42252a/
-  twitter: https://twitter.com/amsterdatamas
   groups: [ai-met-impact]
   ai_sort: 2
 
@@ -114,7 +109,6 @@
   email: hilbrand@h72.nl
   img: /img/hilbrand.jpg
   linkedin: https://www.linkedin.com/in/hilbrandbouwkamp/
-  twitter: https://twitter.com/hilbrand
   github: https://github.com/hilbrand
   website: http://www.h72.nl/
   groups: [ibestuur]
@@ -125,7 +119,6 @@
   email: info@ag4it.nl
   img: /img/ad.png
   linkedin: https://www.linkedin.com/in/adgerrits/
-  twitter: https://twitter.com/adgerrits
   website: http://www.ag4it.nl/
   groups: [ibestuur]
   ibestuur_sort: 4
