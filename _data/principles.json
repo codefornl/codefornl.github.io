@@ -1,7 +1,7 @@
 {
     "title": {
-        "en": "Our Principles",
-        "nl": "Onze Principes"
+        "en": "Our Manifesto",
+        "nl": "Ons Manifest"
     },
     "principles": [
         {
@@ -10,7 +10,7 @@
                 "description": "Code for All’s work focuses on opening and innovating the implementation of policy and the delivery of public services, through the administration and bureaucracy of governments and civil society. While we recognize the importance of political reform and policy advocacy to the success of our work, we have purposely narrowed our focus to the areas where citizens are most likely to meet government."
             },
             "nl": {
-                "title": "We werken aan overheid en maatschappij, niet aan politiek.",
+                "title": "We werken aan overheid en samenleving, niet aan politiek.",
                 "desciption": ""
             }
         },
