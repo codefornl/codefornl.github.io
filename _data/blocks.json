@@ -77,6 +77,18 @@
             "link_title": "Read the full statement!"
         }
     },
+    "digital-democracy-the-hague-2025": {
+        "nl": {
+            "title": "Digital Democracy The Hague 2025: twee dagen vol digitale democratie met 350 experts en mensen uit de praktijk.",
+            "link": "https://ddth25.polisnl.org/",
+            "link_title": "Meer informatie en gratis aanmelding!"
+        },
+        "en": {
+            "title": "Digital Democracy The Hague 2025: two days of digital democracy with 350 experts and practitioners.",
+            "link": "https://ddth25.polisnl.org/",
+            "link_title": "More information and free registration!"
+        }
+    },
     "building-together": {
         "nl": {
             "title": "Samenwerken aan een open, eerlijke en inclusieve digitale overheid.",
