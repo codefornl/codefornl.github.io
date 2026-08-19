@@ -1,0 +1,17 @@
+- tool: Forgejo
+  url: https://code.codefor.nl
+  img: /img/forgejo-logo.svg
+  description: meekijken
+  background: "white"
+
+- tool: Mastodon
+  url: https://social.codefor.nl
+  img: /img/mastodon-logo.svg
+  description: meepraten
+  background: "white"
+
+- tool: Slack
+  url: https://praatmee.codefor.nl
+  img: /img/slack-logo.svg
+  description: meedoen
+  background: "white"

@@ -1,0 +1,23 @@
+<section class="text-center">
+  <h2>CLOUD FOR NL</h2>
+  <p>Digitale voorzieningen voor #publictech in Nederland.</p>
+
+  <div class="cloud-list">
+    {% for cloud in site.data.cloud %}
+      <a class="cloud" style="background: {{ cloud.background }}" href="{{ cloud.url }}">
+        <img class="picture" src="{{ cloud.img }}" style="background: {{ cloud.background }}">
+        <span class="cloud-description">{{ cloud.description }}</span>
+      </a>
+    {% endfor %}
+  </div>
+
+  <h3 style="margin-top: 2em; margin-bottom: 0">Aangeboden door:</h3>
+
+  <div class="sponsor-list">
+    {% for sponsor in site.data.sponsors %}
+      <a class="sponsor" style="background: {{ sponsor.background }}" href="{{ sponsor.url }}">
+        <img class="picture" src="{{ sponsor.img }}" style="background: {{ sponsor.background }}">
+      </a>
+    {% endfor %}
+  </div>
+</section>

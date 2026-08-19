@@ -1,9 +1,3 @@
-- organisation: Slack
-  url: https://slack.com
-  img: /img/slack-logo.svg
-  description: Slack chat omgeving praatmee.codefor.nl
-  background: "white"
-
 - organisation: Procolix
   url: https://www.procolix.eu
   img: https://www.procolix.eu/nl/img/logo_procolix.svg
@@ -20,3 +14,9 @@
   url: https://www.tiltshift.nl
   img: https://www.tiltshift.nl/assets/img/logo_cropped.svg
   description: servers, domeinen, meetup.com
+
+- organisation: Slack
+  url: https://slack.com
+  img: /img/slack-logo.svg
+  description: Slack chat omgeving praatmee.codefor.nl
+  background: "white"
