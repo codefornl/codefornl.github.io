@@ -2,12 +2,12 @@
    "nl": [
       {
          "color": "green-text",
-         "value": "3000+",
+         "value": "4000+",
          "label": "community leden<br />in Nederland"
       },
       {
          "color": "red-text",
-         "value": "200+",
+         "value": "250+",
          "label": "wekelijks actieve leden<br />in Nederland"
       },
       {
@@ -19,12 +19,12 @@
    "en": [
       {
          "color": "green-text",
-         "value": "3000+",
+         "value": "4000+",
          "label": "community members<br />in the Netherlands"
       },
       {
          "color": "red-text",
-         "value": "200+",
+         "value": "250+",
          "label": "weekly active members<br />in the Netherlands"
       },
       {
