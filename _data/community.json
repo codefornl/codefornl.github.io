@@ -13,7 +13,7 @@
       {
          "color": "orange-text",
          "value": "30+",
-         "label": "<a href=\"https://codeforall.org/our-global-network\">partner organisaties<br />wereldwijd</a>"
+         "label": "partner organisaties<br />wereldwijd"
       }
    ],
    "en": [
@@ -30,7 +30,7 @@
       {
          "color": "orange-text",
          "value": "30+",
-         "label": "partner organisations<br /><a href=\"https://codeforall.org/our-global-network\">worldwide</a>"
+         "label": "partner organisations<br />worldwide"
       }
    ]
 }
